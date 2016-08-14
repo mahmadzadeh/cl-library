@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns="http://purl.org/rss/1.0/"
+        xmlns:enc="http://purl.oclc.org/net/rss_2.0/enc#"
+        xmlns:ev="http://purl.org/rss/1.0/modules/event/"
+        xmlns:content="http://purl.org/rss/1.0/modules/content/"
+        xmlns:dcterms="http://purl.org/dc/terms/"
+        xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+        xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+        xmlns:admin="http://webns.net/mvcb/"
+        >
+
+    <channel rdf:about="http://vancouver.craigslist.ca/search/pta?format=rss&#x26;amp;query=bmw&#x26;amp;format=rss">
+        <title>craigslist vancouver, BC | auto parts search "bmw"</title>
+        <link>http://vancouver.craigslist.ca/search/pta?query=bmw</link>
+        <description></description>
+        <dc:language>en-us</dc:language>
+        <dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+        <dc:publisher>robot@craigslist.org</dc:publisher>
+        <dc:creator>robot@craigslist.org</dc:creator>
+        <dc:source>http://vancouver.craigslist.ca/search/pta?format=rss&#x26;amp;query=bmw&#x26;amp;format=rss</dc:source>
+        <dc:title>craigslist vancouver, BC | auto parts search "bmw"</dc:title>
+        <dc:type>Collection</dc:type>
+        <syn:updateBase>2014-11-13T23:01:22-08:00</syn:updateBase>
+        <syn:updateFrequency>1</syn:updateFrequency>
+        <syn:updatePeriod>hourly</syn:updatePeriod>
+        <items>
+            <rdf:Seq>
+                <rdf:li rdf:resource="http://vancouver.craigslist.ca/van/pts/4760688583.html" />
+                <rdf:li rdf:resource="http://vancouver.craigslist.ca/nvn/pts/4760684489.html" />
+                <rdf:li rdf:resource="http://vancouver.craigslist.ca/van/pts/4754075347.html" />
+                <rdf:li rdf:resource="http://vancouver.craigslist.ca/rch/pts/4752156287.html" />
+                <rdf:li rdf:resource="http://vancouver.craigslist.ca/van/pts/4760674566.html" />
+                <rdf:li rdf:resource="http://vancouver.craigslist.ca/rch/pts/4748487444.html" />
+                <rdf:li rdf:resource="http://vancouver.craigslist.ca/pml/ptd/4736647255.html" />
+                <rdf:li rdf:resource="http://vancouver.craigslist.ca/rds/pts/4749995674.html" />
+                <rdf:li rdf:resource="http://vancouver.craigslist.ca/bnc/pts/4760662937.html" />
+                <rdf:li rdf:resource="http://vancouver.craigslist.ca/van/pts/4725653674.html" />
+                <rdf:li rdf:resource="http://vancouver.craigslist.ca/nvn/pts/4760638642.html" />
+                <rdf:li rdf:resource="http://vancouver.craigslist.ca/van/pts/4760622383.html" />
+                <rdf:li rdf:resource="http://vancouver.craigslist.ca/pml/pts/4733380505.html" />
+                <rdf:li rdf:resource="http://vancouver.craigslist.ca/pml/pts/4721305099.html" />
+                <rdf:li rdf:resource="http://vancouver.craigslist.ca/pml/pts/4721285964.html" />
+                <rdf:li rdf:resource="http://vancouver.craigslist.ca/pml/pts/4721452129.html" />
+                <rdf:li rdf:resource="http://vancouver.craigslist.ca/pml/pts/4723441333.html" />
+                <rdf:li rdf:resource="http://vancouver.craigslist.ca/rds/pts/4733360144.html" />
+                <rdf:li rdf:resource="http://vancouver.craigslist.ca/van/pts/4753507602.html" />
+                <rdf:li rdf:resource="http://vancouver.craigslist.ca/rds/pts/4749850118.html" />
+                <rdf:li rdf:resource="http://vancouver.craigslist.ca/rds/pts/4752920449.html" />
+                <rdf:li rdf:resource="http://vancouver.craigslist.ca/rds/pts/4745288827.html" />
+                <rdf:li rdf:resource="http://vancouver.craigslist.ca/bnc/ptd/4760520376.html" />
+                <rdf:li rdf:resource="http://vancouver.craigslist.ca/rds/pts/4722765839.html" />
+                <rdf:li rdf:resource="http://vancouver.craigslist.ca/van/pts/4760508699.html" />
+            </rdf:Seq>
+        </items>
+    </channel>
+    <item rdf:about="http://vancouver.craigslist.ca/van/pts/4760688583.html">
+        <title><![CDATA[FS: 17"bmw wihter rims and tires 225/45/17 (van, bby, rmd) &#x0024;600]]></title>
+        <link>http://vancouver.craigslist.ca/van/pts/4760688583.html</link>
+        <description><![CDATA[Have a set of 17"winter rims for bmw with tires
+wheel is 5x120 17x7.5 +35 off set
+tires is 225/45/17 hankook winter radial W404
+bought it 2 yrs ago used and still have plenty of thread left.
+go for 2 season at least
+can fit most of the current m [...]]]></description>
+        <dc:date>2014-11-13T21:58:45-08:00</dc:date>
+        <dc:language>en-us</dc:language>
+        <dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+        <dc:source>http://vancouver.craigslist.ca/van/pts/4760688583.html</dc:source>
+        <dc:title><![CDATA[FS: 17"bmw wihter rims and tires 225/45/17 (van, bby, rmd) &#x0024;600]]></dc:title>
+        <dc:type>text</dc:type>
+        <enc:enclosure resource="http://images.craigslist.org/00w0w_7bXPM6wYEDN_300x300.jpg" type="image/jpeg"/>
+        <dcterms:issued>2014-11-13T21:58:45-08:00</dcterms:issued>
+    </item>
+    <item rdf:about="http://vancouver.craigslist.ca/nvn/pts/4760684489.html">
+        <title><![CDATA[BMW Getrag 260 Transmission]]></title>
+        <link>http://vancouver.craigslist.ca/nvn/pts/4760684489.html</link>
+        <description><![CDATA[Selling a Getrag 260 Transmission w/ ~160k on it.
+Fits the following..
+1983-1984, 1986-1988 BMW E23 BMW E24 BMW E
+ <a href="/fb/van/pts/4760684489" class="showcontact" title="click to show contact info">show contact info</a>
+BMW E
+ <a href="/fb/van/pts/4760684489" class="showcontact" title="click to show contact info">show contact info</a>
+BMW E36 Upgraded 265 version
+1988-1995 BMW E
+ <a href="/fb/van/pts/4760684489" class="showcontact" title="click to show contact info">show contact info</a>
+Holden Commodore(VS, VT, VX, VY)
+2002-2005 [...]]]></description>
+        <dc:date>2014-11-13T21:51:03-08:00</dc:date>
+        <dc:language>en-us</dc:language>
+        <dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+        <dc:source>http://vancouver.craigslist.ca/nvn/pts/4760684489.html</dc:source>
+        <dc:title><![CDATA[BMW Getrag 260 Transmission]]></dc:title>
+        <dc:type>text</dc:type>
+        <dcterms:issued>2014-11-13T21:51:03-08:00</dcterms:issued>
+    </item>
+    <item rdf:about="http://vancouver.craigslist.ca/van/pts/4754075347.html">
+        <title><![CDATA[Xenon Control units for BMW models E46, E63, E64, E83 (VANCOUVER) &#x0024;260]]></title>
+        <link>http://vancouver.craigslist.ca/van/pts/4754075347.html</link>
+        <description><![CDATA[Xenon control units (2) for E46 3 series, E63 and E64 6 series and cabriolet, and E83 X3.
+Removed for headlight retrofit. Excellent condition. Asking $260 each or &460 for both
+Fits the following vehicles
+E46: Details on E46
+E46 320i Sedan
+E46 3 [...]]]></description>
+        <dc:date>2014-11-13T21:41:22-08:00</dc:date>
+        <dc:language>en-us</dc:language>
+        <dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+        <dc:source>http://vancouver.craigslist.ca/van/pts/4754075347.html</dc:source>
+        <dc:title><![CDATA[Xenon Control units for BMW models E46, E63, E64, E83 (VANCOUVER) &#x0024;260]]></dc:title>
+        <dc:type>text</dc:type>
+        <enc:enclosure resource="http://images.craigslist.org/00A0A_kSFPUMRTWfA_300x300.jpg" type="image/jpeg"/>
+        <dcterms:issued>2014-11-13T21:41:22-08:00</dcterms:issued>
+    </item>
+    <item rdf:about="http://vancouver.craigslist.ca/rch/pts/4752156287.html">
+        <title><![CDATA[2 New Rear Break Rotor R64139 20.4mmx207.2mm Ford F-150 (Richmond/Bridgeport) &#x0024;80]]></title>
+        <link>http://vancouver.craigslist.ca/rch/pts/4752156287.html</link>
+        <description><![CDATA[Selling 2 brand new Rear Rotor Break R64139 min thickness 20.4mm Max Diameter 207.2mm both for $80
+Save a lot than buying from a store.
+Just call or txt if interested at 6O4 440 9524 or 6O4
+ <a href="/fb/van/pts/4752156287" class="showcontact" title="click to show contact info">show contact info</a>
+
+Ford BMW Dodge Ram Chevrolet Silverado Subar [...]]]></description>
+        <dc:date>2014-11-13T21:33:29-08:00</dc:date>
+        <dc:language>en-us</dc:language>
+        <dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+        <dc:source>http://vancouver.craigslist.ca/rch/pts/4752156287.html</dc:source>
+        <dc:title><![CDATA[2 New Rear Break Rotor R64139 20.4mmx207.2mm Ford F-150 (Richmond/Bridgeport) &#x0024;80]]></dc:title>
+        <dc:type>text</dc:type>
+        <enc:enclosure resource="http://images.craigslist.org/00X0X_7ebVjO1sTAR_300x300.jpg" type="image/jpeg"/>
+        <dcterms:issued>2014-11-13T21:33:29-08:00</dcterms:issued>
+    </item>
+    <item rdf:about="http://vancouver.craigslist.ca/van/pts/4760674566.html">
+        <title><![CDATA[BMW CCC UNIT  ( NAVI , DVD , CD PLAYER UNIT + LCD SCREEN)FOR 2004-2010 (Vancouver ) &#x0024;950]]></title>
+        <link>http://vancouver.craigslist.ca/van/pts/4760674566.html</link>
+        <description><![CDATA[2004-2010 BMW 5 SERIES
+2004-2010 BMW 6 SERIES
+2004-2010 BMW 7 SERIES
+BMW E60 E61 E63 E64 M5 M6 LCI Navigationssystem Professional CCC Navi original Bmw parts
+This unit is as new condition. Everything works properly.
+Includes both 8.8" LCD screen [...]]]></description>
+        <dc:date>2014-11-13T21:33:12-08:00</dc:date>
+        <dc:language>en-us</dc:language>
+        <dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+        <dc:source>http://vancouver.craigslist.ca/van/pts/4760674566.html</dc:source>
+        <dc:title><![CDATA[BMW CCC UNIT  ( NAVI , DVD , CD PLAYER UNIT + LCD SCREEN)FOR 2004-2010 (Vancouver ) &#x0024;950]]></dc:title>
+        <dc:type>text</dc:type>
+        <enc:enclosure resource="http://images.craigslist.org/00909_bQ4rDNCaiM8_300x300.jpg" type="image/jpeg"/>
+        <dcterms:issued>2014-11-13T21:33:12-08:00</dcterms:issued>
+    </item>
+    <item rdf:about="http://vancouver.craigslist.ca/rch/pts/4748487444.html">
+        <title><![CDATA[Injen Air intake for 99-02 BMW 323i or 328i Brand new $250 (richmond) &#x0024;250]]></title>
+        <link>http://vancouver.craigslist.ca/rch/pts/4748487444.html</link>
+        <description><![CDATA[For Sale =&gt;&gt; Injen RD1110P Cold Air Intake - RD Race Division Intake System BMW 323I or 328I $250
+These Injen RD series Race Division intake systems are cold air intake systems for the enthusiast craving midrange power. The intake tube is stra [...]]]></description>
+        <dc:date>2014-11-13T21:30:06-08:00</dc:date>
+        <dc:language>en-us</dc:language>
+        <dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+        <dc:source>http://vancouver.craigslist.ca/rch/pts/4748487444.html</dc:source>
+        <dc:title><![CDATA[Injen Air intake for 99-02 BMW 323i or 328i Brand new $250 (richmond) &#x0024;250]]></dc:title>
+        <dc:type>text</dc:type>
+        <enc:enclosure resource="http://images.craigslist.org/00D0D_fuXH25YHI14_300x300.jpg" type="image/jpeg"/>
+        <dcterms:issued>2014-11-13T21:30:06-08:00</dcterms:issued>
+    </item>
+    <item rdf:about="http://vancouver.craigslist.ca/pml/ptd/4736647255.html">
+        <title><![CDATA[Alloy Wheels with Hankook Icebear W300 235/65R17 108V Winter Tires (coquitlam center) &#x0024;245]]></title>
+        <link>http://vancouver.craigslist.ca/pml/ptd/4736647255.html</link>
+        <description><![CDATA[Set of four (4) Alloy Wheels with Hankook Icebear W300 235/65R17 108V Winter Tires
+Inside of wheels, embossed numbers 801817 and 8JX17 H2.
+Comes with Hankook Icebear winter tire designed for high performance cars. Features asymmetric tread design w [...]]]></description>
+        <dc:date>2014-11-13T21:27:04-08:00</dc:date>
+        <dc:language>en-us</dc:language>
+        <dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+        <dc:source>http://vancouver.craigslist.ca/pml/ptd/4736647255.html</dc:source>
+        <dc:title><![CDATA[Alloy Wheels with Hankook Icebear W300 235/65R17 108V Winter Tires (coquitlam center) &#x0024;245]]></dc:title>
+        <dc:type>text</dc:type>
+        <enc:enclosure resource="http://images.craigslist.org/00n0n_bai1wRTYhJi_300x300.jpg" type="image/jpeg"/>
+        <dcterms:issued>2014-11-13T21:27:04-08:00</dcterms:issued>
+    </item>
+    <item rdf:about="http://vancouver.craigslist.ca/rds/pts/4749995674.html">
+        <title><![CDATA[SPEEDOMETER BMW 740i  (north surrey) &#x0024;120]]></title>
+        <link>http://vancouver.craigslist.ca/rds/pts/4749995674.html</link>
+        <description><![CDATA[Part # 257-60762 1yr Speedometer Head Cluster for BMW 740i low mileage 2000, like new
+Still in the package it came in, never used. Surrey ]]></description>
+        <dc:date>2014-11-13T21:25:29-08:00</dc:date>
+        <dc:language>en-us</dc:language>
+        <dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+        <dc:source>http://vancouver.craigslist.ca/rds/pts/4749995674.html</dc:source>
+        <dc:title><![CDATA[SPEEDOMETER BMW 740i  (north surrey) &#x0024;120]]></dc:title>
+        <dc:type>text</dc:type>
+        <dcterms:issued>2014-11-13T21:25:29-08:00</dcterms:issued>
+    </item>
+    <item rdf:about="http://vancouver.craigslist.ca/bnc/pts/4760662937.html">
+        <title><![CDATA[FOUR 4 ELBRUS WHEEL WITH WINTER TIRES 245/45/18 (NEW WEST BURNABY) &#x0024;850]]></title>
+        <link>http://vancouver.craigslist.ca/bnc/pts/4760662937.html</link>
+        <description><![CDATA[4 NEWER TIRES AND WHEELS ELBRUS, ONLY USED FOR COUPLE OF MONTH 245/45/18 BRIDGESTONE BLIZZAK LM-25V 100V , $850 BE QUICK
+ <a href="/fb/van/pts/4760662937" class="showcontact" title="click to show contact info">show contact info</a>
+SHAWN
+OFF FROM 2007 BMW 650IC ALMOST NEW ]]></description>
+        <dc:date>2014-11-13T21:22:50-08:00</dc:date>
+        <dc:language>en-us</dc:language>
+        <dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+        <dc:source>http://vancouver.craigslist.ca/bnc/pts/4760662937.html</dc:source>
+        <dc:title><![CDATA[FOUR 4 ELBRUS WHEEL WITH WINTER TIRES 245/45/18 (NEW WEST BURNABY) &#x0024;850]]></dc:title>
+        <dc:type>text</dc:type>
+        <enc:enclosure resource="http://images.craigslist.org/00o0o_7C2VaJ6byEW_300x300.jpg" type="image/jpeg"/>
+        <dcterms:issued>2014-11-13T21:22:50-08:00</dcterms:issued>
+    </item>
+    <item rdf:about="http://vancouver.craigslist.ca/van/pts/4725653674.html">
+        <title><![CDATA[BMW 17x7 steelies e90 &#x0024;180]]></title>
+        <link>http://vancouver.craigslist.ca/van/pts/4725653674.html</link>
+        <description><![CDATA[Selling 4 steelies without tires. Used for 1 season and then get rims. Practically new.
+17x7
+BMW 5x120 fitmet.
+Offset is +47
+Fits e90, e92 etc.
+Silver face steelie
+Looking for 180 firm. Get ready for winter. ]]></description>
+        <dc:date>2014-11-13T20:44:25-08:00</dc:date>
+        <dc:language>en-us</dc:language>
+        <dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+        <dc:source>http://vancouver.craigslist.ca/van/pts/4725653674.html</dc:source>
+        <dc:title><![CDATA[BMW 17x7 steelies e90 &#x0024;180]]></dc:title>
+        <dc:type>text</dc:type>
+        <enc:enclosure resource="http://images.craigslist.org/00O0O_8GCYrKJFn8e_300x300.jpg" type="image/jpeg"/>
+        <dcterms:issued>2014-11-13T20:44:25-08:00</dcterms:issued>
+    </item>
+    <item rdf:about="http://vancouver.craigslist.ca/nvn/pts/4760638642.html">
+        <title><![CDATA[Bmw 328i e90 sedan car mats (north vancouver) &#x0024;20]]></title>
+        <link>http://vancouver.craigslist.ca/nvn/pts/4760638642.html</link>
+        <description><![CDATA[Car is sold but I still have 3 mats LEFT: front passenger and both rear ones. Could not find drivers mat.
+If interested contact Alex 6.0.4.9.9.9.5.4.3.6]]></description>
+        <dc:date>2014-11-13T20:38:17-08:00</dc:date>
+        <dc:language>en-us</dc:language>
+        <dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+        <dc:source>http://vancouver.craigslist.ca/nvn/pts/4760638642.html</dc:source>
+        <dc:title><![CDATA[Bmw 328i e90 sedan car mats (north vancouver) &#x0024;20]]></dc:title>
+        <dc:type>text</dc:type>
+        <enc:enclosure resource="http://images.craigslist.org/00d0d_9p3YPPuKysF_300x300.jpg" type="image/jpeg"/>
+        <dcterms:issued>2014-11-13T20:38:17-08:00</dcterms:issued>
+    </item>
+    <item rdf:about="http://vancouver.craigslist.ca/van/pts/4760622383.html">
+        <title><![CDATA[12 LITRES  CATROL PROFESSIONAL FULL SYNTHETIC MOTOR OIL SAE 5W-30 (Vancouver) &#x0024;60]]></title>
+        <link>http://vancouver.craigslist.ca/van/pts/4760622383.html</link>
+        <description><![CDATA[12 liters of new all bottles factory sealed and perfectly new genuine CASTOL PROFESSIONAL OE SAE 5W-30 FULLY SYNTHETIC MOTOR OIL!!! $60 0BO. Sells for over $9 a liter.
+API SM CF RATING
+Applications GAS ENGINE AND GOOD FOR SOME DEISEL ENGINES LIKE V [...]]]></description>
+        <dc:date>2014-11-13T20:25:31-08:00</dc:date>
+        <dc:language>en-us</dc:language>
+        <dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+        <dc:source>http://vancouver.craigslist.ca/van/pts/4760622383.html</dc:source>
+        <dc:title><![CDATA[12 LITRES  CATROL PROFESSIONAL FULL SYNTHETIC MOTOR OIL SAE 5W-30 (Vancouver) &#x0024;60]]></dc:title>
+        <dc:type>text</dc:type>
+        <dcterms:issued>2014-11-13T20:25:31-08:00</dcterms:issued>
+    </item>
+    <item rdf:about="http://vancouver.craigslist.ca/pml/pts/4733380505.html">
+        <title><![CDATA[BMW e46 head cylinder cover &amp; oil cap &#x0024;20]]></title>
+        <link>http://vancouver.craigslist.ca/pml/pts/4733380505.html</link>
+        <description><![CDATA[For sale OEM head cylinder plastic cover, nuts covers and oil cap out from 323i year 2000.
+Asking $20 for all.]]></description>
+        <dc:date>2014-11-13T20:24:02-08:00</dc:date>
+        <dc:language>en-us</dc:language>
+        <dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+        <dc:source>http://vancouver.craigslist.ca/pml/pts/4733380505.html</dc:source>
+        <dc:title><![CDATA[BMW e46 head cylinder cover &amp; oil cap &#x0024;20]]></dc:title>
+        <dc:type>text</dc:type>
+        <dcterms:issued>2014-11-13T20:24:02-08:00</dcterms:issued>
+    </item>
+    <item rdf:about="http://vancouver.craigslist.ca/pml/pts/4721305099.html">
+        <title><![CDATA[BMW e46 complete middle console &#x0024;60]]></title>
+        <link>http://vancouver.craigslist.ca/pml/pts/4721305099.html</link>
+        <description><![CDATA[selling complete OEM black middle console with the cup holders, coins holder, hazard lights switch and hand break leather boot in a perfect condition. Fits e46 years 1999, 2000 and may fit other years.
+asking $60]]></description>
+        <dc:date>2014-11-13T20:23:04-08:00</dc:date>
+        <dc:language>en-us</dc:language>
+        <dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+        <dc:source>http://vancouver.craigslist.ca/pml/pts/4721305099.html</dc:source>
+        <dc:title><![CDATA[BMW e46 complete middle console &#x0024;60]]></dc:title>
+        <dc:type>text</dc:type>
+        <enc:enclosure resource="http://images.craigslist.org/00k0k_9xUVECdVRuR_300x300.jpg" type="image/jpeg"/>
+        <dcterms:issued>2014-11-13T20:23:04-08:00</dcterms:issued>
+    </item>
+    <item rdf:about="http://vancouver.craigslist.ca/pml/pts/4721285964.html">
+        <title><![CDATA[BMW Bremi ignition coils with connector &#x0024;25]]></title>
+        <link>http://vancouver.craigslist.ca/pml/pts/4721285964.html</link>
+        <description><![CDATA[For sale OEM ignition coils with rubber connection. BMW part # 1 748 017. Fits several models.
+$25 each ]]></description>
+        <dc:date>2014-11-13T20:22:38-08:00</dc:date>
+        <dc:language>en-us</dc:language>
+        <dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+        <dc:source>http://vancouver.craigslist.ca/pml/pts/4721285964.html</dc:source>
+        <dc:title><![CDATA[BMW Bremi ignition coils with connector &#x0024;25]]></dc:title>
+        <dc:type>text</dc:type>
+        <enc:enclosure resource="http://images.craigslist.org/00F0F_7omCSvsSDKg_300x300.jpg" type="image/jpeg"/>
+        <dcterms:issued>2014-11-13T20:22:38-08:00</dcterms:issued>
+    </item>
+    <item rdf:about="http://vancouver.craigslist.ca/pml/pts/4721452129.html">
+        <title><![CDATA[Siemens OEM MAF sensor for BMW e36/e38/e39 &#x0024;40]]></title>
+        <link>http://vancouver.craigslist.ca/pml/pts/4721452129.html</link>
+        <description><![CDATA[Original Siemens mass air flow sensor for BMW e36 / e38 / e39.
+Siemens 5WK9 600
+Part # 1 703 275
+$40]]></description>
+        <dc:date>2014-11-13T20:22:06-08:00</dc:date>
+        <dc:language>en-us</dc:language>
+        <dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+        <dc:source>http://vancouver.craigslist.ca/pml/pts/4721452129.html</dc:source>
+        <dc:title><![CDATA[Siemens OEM MAF sensor for BMW e36/e38/e39 &#x0024;40]]></dc:title>
+        <dc:type>text</dc:type>
+        <dcterms:issued>2014-11-13T20:22:06-08:00</dcterms:issued>
+    </item>
+    <item rdf:about="http://vancouver.craigslist.ca/pml/pts/4723441333.html">
+        <title><![CDATA[BMW OEM Behr radiator for e34 &#x0024;80]]></title>
+        <link>http://vancouver.craigslist.ca/pml/pts/4723441333.html</link>
+        <description><![CDATA[Selling OEM Behr Radiator for BMW e34 and maybe other series in a very good condition.
+part # 1 702 453
+Asking $80]]></description>
+        <dc:date>2014-11-13T20:21:35-08:00</dc:date>
+        <dc:language>en-us</dc:language>
+        <dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+        <dc:source>http://vancouver.craigslist.ca/pml/pts/4723441333.html</dc:source>
+        <dc:title><![CDATA[BMW OEM Behr radiator for e34 &#x0024;80]]></dc:title>
+        <dc:type>text</dc:type>
+        <dcterms:issued>2014-11-13T20:21:35-08:00</dcterms:issued>
+    </item>
+    <item rdf:about="http://vancouver.craigslist.ca/rds/pts/4733360144.html">
+        <title><![CDATA[BMW E46 16" Wheels and Nokian Tires (Langley) &#x0024;600]]></title>
+        <link>http://vancouver.craigslist.ca/rds/pts/4733360144.html</link>
+        <description><![CDATA[BMW E46 16" factory aluminum sport wheels, Set of 4 205/55R/16 with Nokian WRG2 winter tires, includes center caps , all in good condition. $600 OBO.
+ <a href="/fb/van/pts/4733360144" class="showcontact" title="click to show contact info">show contact info</a>
+
+BMW Wheel style 45
+Bolt pattern: 5x120
+Size: 16x7
+Offset: ET 47
+Tires: Nokian WR G [...]]]></description>
+        <dc:date>2014-11-13T20:09:51-08:00</dc:date>
+        <dc:language>en-us</dc:language>
+        <dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+        <dc:source>http://vancouver.craigslist.ca/rds/pts/4733360144.html</dc:source>
+        <dc:title><![CDATA[BMW E46 16" Wheels and Nokian Tires (Langley) &#x0024;600]]></dc:title>
+        <dc:type>text</dc:type>
+        <enc:enclosure resource="http://images.craigslist.org/00D0D_i9n8CPl2g7v_300x300.jpg" type="image/jpeg"/>
+        <dcterms:issued>2014-11-13T20:09:51-08:00</dcterms:issued>
+    </item>
+    <item rdf:about="http://vancouver.craigslist.ca/van/pts/4753507602.html">
+        <title><![CDATA[BMW x5 steering rack (science world) &#x0024;275]]></title>
+        <link>http://vancouver.craigslist.ca/van/pts/4753507602.html</link>
+        <description><![CDATA[Used Rack & Pinion gear for a 2000 - 2006 BMW X5.
+Manufacturer Part Number: 32136761823
+Interchange Part Number: 32106763342
+Other Part Number: 32 13 6 761 823 32 10 6 763 342
+WITHOUT SERVOTRONIC ]]></description>
+        <dc:date>2014-11-13T20:07:31-08:00</dc:date>
+        <dc:language>en-us</dc:language>
+        <dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+        <dc:source>http://vancouver.craigslist.ca/van/pts/4753507602.html</dc:source>
+        <dc:title><![CDATA[BMW x5 steering rack (science world) &#x0024;275]]></dc:title>
+        <dc:type>text</dc:type>
+        <enc:enclosure resource="http://images.craigslist.org/01010_la9r0Hy123b_300x300.jpg" type="image/jpeg"/>
+        <dcterms:issued>2014-11-13T20:07:31-08:00</dcterms:issued>
+    </item>
+    <item rdf:about="http://vancouver.craigslist.ca/rds/pts/4749850118.html">
+        <title><![CDATA[Spoiler for sale $170obo &#x0024;170]]></title>
+        <link>http://vancouver.craigslist.ca/rds/pts/4749850118.html</link>
+        <description><![CDATA[On sale a nice yellow spoiler for $170obo good condition,few scratches not too noticeable it has LED brake light,
+text Marco if interested at
+ <a href="/fb/van/pts/4749850118" class="showcontact" title="click to show contact info">show contact info</a>
+
+Key:Honda,Acura,Mitsubishi,BMW,Mercedes]]></description>
+        <dc:date>2014-11-13T20:06:46-08:00</dc:date>
+        <dc:language>en-us</dc:language>
+        <dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+        <dc:source>http://vancouver.craigslist.ca/rds/pts/4749850118.html</dc:source>
+        <dc:title><![CDATA[Spoiler for sale $170obo &#x0024;170]]></dc:title>
+        <dc:type>text</dc:type>
+        <enc:enclosure resource="http://images.craigslist.org/00l0l_gj969a93A1b_300x300.jpg" type="image/jpeg"/>
+        <dcterms:issued>2014-11-13T20:06:46-08:00</dcterms:issued>
+    </item>
+    <item rdf:about="http://vancouver.craigslist.ca/rds/pts/4752920449.html">
+        <title><![CDATA[Bmw x5 Rims and tire like New  (abbotsford) &#x0024;899]]></title>
+        <link>http://vancouver.craigslist.ca/rds/pts/4752920449.html</link>
+        <description><![CDATA[Bmw x5 original 4 Rims and tire like brand new for sale
+No scratches on Rims
+Look like brand new 4 Rims and tire set]]></description>
+        <dc:date>2014-11-13T19:36:46-08:00</dc:date>
+        <dc:language>en-us</dc:language>
+        <dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+        <dc:source>http://vancouver.craigslist.ca/rds/pts/4752920449.html</dc:source>
+        <dc:title><![CDATA[Bmw x5 Rims and tire like New  (abbotsford) &#x0024;899]]></dc:title>
+        <dc:type>text</dc:type>
+        <enc:enclosure resource="http://images.craigslist.org/00f0f_fkHhJzT4riQ_300x300.jpg" type="image/jpeg"/>
+        <dcterms:issued>2014-11-13T19:36:46-08:00</dcterms:issued>
+    </item>
+    <item rdf:about="http://vancouver.craigslist.ca/rds/pts/4745288827.html">
+        <title><![CDATA[BBS center caps: 1995-2003 BMW 535i and 540i.  (Tsawwassen) &#x0024;200]]></title>
+        <link>http://vancouver.craigslist.ca/rds/pts/4745288827.html</link>
+        <description><![CDATA[Set of four BBS center caps for 1995-2003 BMW 535i and 540i.
+Price = $200.Firm. ]]></description>
+        <dc:date>2014-11-13T19:36:03-08:00</dc:date>
+        <dc:language>en-us</dc:language>
+        <dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+        <dc:source>http://vancouver.craigslist.ca/rds/pts/4745288827.html</dc:source>
+        <dc:title><![CDATA[BBS center caps: 1995-2003 BMW 535i and 540i.  (Tsawwassen) &#x0024;200]]></dc:title>
+        <dc:type>text</dc:type>
+        <enc:enclosure resource="http://images.craigslist.org/00N0N_7Qa3CY8Xms6_300x300.jpg" type="image/jpeg"/>
+        <dcterms:issued>2014-11-13T19:36:03-08:00</dcterms:issued>
+    </item>
+    <item rdf:about="http://vancouver.craigslist.ca/bnc/ptd/4760520376.html">
+        <title><![CDATA[12V Auto Battery (burnaby) &#x0024;40]]></title>
+        <link>http://vancouver.craigslist.ca/bnc/ptd/4760520376.html</link>
+        <description><![CDATA[Refurbished, fully charged, tested and ready to use, 6-month warranty.
+Domestic & Japanese car batteries $40, BMW/Benz/Audi/VW/Volvo/Porsche/Jaguar $50
+Truck Battery $50
+Deep Cycle Battery $60 ~ 80
+AGM battery $80
+Call/text at
+ <a href="/fb/van/ptd/4760520376" class="showcontact" title="click to show contact info">show contact info</a>
+ Pls  [...]]]></description>
+        <dc:date>2014-11-13T18:50:01-08:00</dc:date>
+        <dc:language>en-us</dc:language>
+        <dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+        <dc:source>http://vancouver.craigslist.ca/bnc/ptd/4760520376.html</dc:source>
+        <dc:title><![CDATA[12V Auto Battery (burnaby) &#x0024;40]]></dc:title>
+        <dc:type>text</dc:type>
+        <enc:enclosure resource="http://images.craigslist.org/00N0N_isVx62GUEbJ_300x300.jpg" type="image/jpeg"/>
+        <dcterms:issued>2014-11-13T18:50:01-08:00</dcterms:issued>
+    </item>
+    <item rdf:about="http://vancouver.craigslist.ca/rds/pts/4722765839.html">
+        <title><![CDATA[BMW 325, 1989 parts (surrey centre) &#x0024;1]]></title>
+        <link>http://vancouver.craigslist.ca/rds/pts/4722765839.html</link>
+        <description><![CDATA[air intake w all sensers $20, mirrows $10 each,computer $20 and more as u see on the pic, call
+ <a href="/fb/van/pts/4722765839" class="showcontact" title="click to show contact info">show contact info</a>
+, if no answer text me]]></description>
+        <dc:date>2014-11-13T18:20:38-08:00</dc:date>
+        <dc:language>en-us</dc:language>
+        <dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+        <dc:source>http://vancouver.craigslist.ca/rds/pts/4722765839.html</dc:source>
+        <dc:title><![CDATA[BMW 325, 1989 parts (surrey centre) &#x0024;1]]></dc:title>
+        <dc:type>text</dc:type>
+        <enc:enclosure resource="http://images.craigslist.org/01313_ftiTXVojNT4_300x300.jpg" type="image/jpeg"/>
+        <dcterms:issued>2014-11-13T18:20:38-08:00</dcterms:issued>
+    </item>
+    <item rdf:about="http://vancouver.craigslist.ca/van/pts/4760508699.html">
+        <title><![CDATA[BMW 3 Series / Infiniti FX Mats]]></title>
+        <link>http://vancouver.craigslist.ca/van/pts/4760508699.html</link>
+        <description><![CDATA[BMW All Weather Rubber Sport Mats for sale $118 or b/o.
+Brand New Infiniti All Weather Mats, good for models FX35, FX37 and QX70.
+Sale for $118 or b/o.
+Cash and carry only. Please call
+ <a href="/fb/van/pts/4760508699" class="showcontact" title="click to show contact info">show contact info</a>
+Text
+ <a href="/fb/van/pts/4760508699" class="showcontact" title="click to show contact info">show contact info</a>
+]]></description>
+        <dc:date>2014-11-13T18:13:47-08:00</dc:date>
+        <dc:language>en-us</dc:language>
+        <dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+        <dc:source>http://vancouver.craigslist.ca/van/pts/4760508699.html</dc:source>
+        <dc:title><![CDATA[BMW 3 Series / Infiniti FX Mats]]></dc:title>
+        <dc:type>text</dc:type>
+        <enc:enclosure resource="http://images.craigslist.org/01111_6n3MeG9r7br_300x300.jpg" type="image/jpeg"/>
+        <dcterms:issued>2014-11-13T18:13:47-08:00</dcterms:issued>
+    </item>
+</rdf:RDF>

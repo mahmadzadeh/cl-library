@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns="http://purl.org/rss/1.0/"
+        xmlns:enc="http://purl.oclc.org/net/rss_2.0/enc#"
+        xmlns:ev="http://purl.org/rss/1.0/modules/event/"
+        xmlns:content="http://purl.org/rss/1.0/modules/content/"
+        xmlns:dcterms="http://purl.org/dc/terms/"
+        xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+        xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+        xmlns:admin="http://webns.net/mvcb/"
+        >
+
+    <channel
+            rdf:about="http://vancouver.craigslist.ca/search/pta?format=rss&#x26;amp;query=BMW&#x25;20tires&#x26;amp;s=52">
+        <title>craigslist vancouver, BC | auto parts search "BMW tires"</title>
+        <link>http://vancouver.craigslist.ca/search/pta?query=BMW&#x25;20tires&#x26;amp;s=52</link>
+        <description></description>
+        <dc:language>en-us</dc:language>
+        <dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+        <dc:publisher>robot@craigslist.org</dc:publisher>
+        <dc:creator>robot@craigslist.org</dc:creator>
+        <dc:source>http://vancouver.craigslist.ca/search/pta?format=rss&#x26;amp;query=BMW&#x25;20tires&#x26;amp;s=52
+        </dc:source>
+        <dc:title>craigslist vancouver, BC | auto parts search "BMW tires"</dc:title>
+        <dc:type>Collection</dc:type>
+        <syn:updateBase>2014-08-17T11:48:18-07:00</syn:updateBase>
+        <syn:updateFrequency>1</syn:updateFrequency>
+        <syn:updatePeriod>hourly</syn:updatePeriod>
+        <items>
+            <rdf:Seq>
+                <rdf:li rdf:resource="http://vancouver.craigslist.ca/rds/pts/4612923391.html"/>
+                <rdf:li rdf:resource="http://vancouver.craigslist.ca/bnc/pts/4592334749.html"/>
+                <rdf:li rdf:resource="http://vancouver.craigslist.ca/pml/pts/4621319187.html"/>
+                <rdf:li rdf:resource="http://vancouver.craigslist.ca/van/pts/4614727529.html"/>
+                <rdf:li rdf:resource="http://vancouver.craigslist.ca/bnc/ptd/4614589180.html"/>
+                <rdf:li rdf:resource="http://vancouver.craigslist.ca/bnc/ptd/4614557103.html"/>
+                <rdf:li rdf:resource="http://vancouver.craigslist.ca/bnc/ptd/4614570974.html"/>
+                <rdf:li rdf:resource="http://vancouver.craigslist.ca/bnc/pts/4621216626.html"/>
+                <rdf:li rdf:resource="http://vancouver.craigslist.ca/rds/pts/4607146414.html"/>
+                <rdf:li rdf:resource="http://vancouver.craigslist.ca/rds/pts/4607143107.html"/>
+                <rdf:li rdf:resource="http://vancouver.craigslist.ca/van/pts/4591530551.html"/>
+                <rdf:li rdf:resource="http://vancouver.craigslist.ca/bnc/pts/4604801563.html"/>
+                <rdf:li rdf:resource="http://vancouver.craigslist.ca/pml/pts/4621139179.html"/>
+                <rdf:li rdf:resource="http://vancouver.craigslist.ca/rds/pts/4613707437.html"/>
+                <rdf:li rdf:resource="http://vancouver.craigslist.ca/rds/pts/4612921338.html"/>
+                <rdf:li rdf:resource="http://vancouver.craigslist.ca/rds/pts/4609965315.html"/>
+                <rdf:li rdf:resource="http://vancouver.craigslist.ca/rds/pts/4603793936.html"/>
+                <rdf:li rdf:resource="http://vancouver.craigslist.ca/rds/pts/4620867523.html"/>
+                <rdf:li rdf:resource="http://vancouver.craigslist.ca/rds/pts/4620734508.html"/>
+                <rdf:li rdf:resource="http://vancouver.craigslist.ca/van/pts/4620680712.html"/>
+                <rdf:li rdf:resource="http://vancouver.craigslist.ca/van/ptd/4612788614.html"/>
+                <rdf:li rdf:resource="http://vancouver.craigslist.ca/van/ptd/4593246587.html"/>
+                <rdf:li rdf:resource="http://vancouver.craigslist.ca/rds/pts/4582167543.html"/>
+                <rdf:li rdf:resource="http://vancouver.craigslist.ca/rds/pts/4620532112.html"/>
+                <rdf:li rdf:resource="http://vancouver.craigslist.ca/rds/pts/4620428393.html"/>
+            </rdf:Seq>
+        </items>
+    </channel>
+    <item rdf:about="http://vancouver.craigslist.ca/rds/pts/4612923391.html">
+        <title><![CDATA[BMW 525i  15" STOCK RIMS Wheels 1991 Used with BOLTS Tires (South-Surrey) &#x0024;120]]></title>
+        <link>http://vancouver.craigslist.ca/rds/pts/4612923391.html</link>
+        <description><![CDATA[
+ <a href="/fb/van/pts/4612923391" class="showcontact" title="click to show contact info">show contact info</a>
+
+15" BMW 525i Stock Rims Wheels
+1991
+OEM
+Used!
+including USED Bolts!
+Tires Used, two run down, two still with some Life in them Yet
+ <a href="/fb/van/pts/4612923391" class="showcontact" title="click to show contact info">show contact info</a>
+
+CAD 120.00
+ <a href="/fb/van/pts/4612923391" class="showcontact" title="click to show contact info">show contact info</a>
+]]></description>
+        <dc:date>2014-08-15T19:27:21-07:00</dc:date>
+        <dc:language>en-us</dc:language>
+        <dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+        <dc:source>http://vancouver.craigslist.ca/rds/pts/4612923391.html</dc:source>
+        <dc:title>
+            <![CDATA[BMW 525i  15" STOCK RIMS Wheels 1991 Used with BOLTS Tires (South-Surrey) &#x0024;120]]></dc:title>
+        <dc:type>text</dc:type>
+        <enc:enclosure resource="http://images.craigslist.org/00101_jnwmmtQrMiC_300x300.jpg" type="image/jpeg"/>
+        <dcterms:issued>2014-08-15T19:27:21-07:00</dcterms:issued>
+    </item>
+    <item rdf:about="http://vancouver.craigslist.ca/bnc/pts/4592334749.html">
+        <title><![CDATA[Set of 19 inch Lenso wheels, 5x120, 5 lug 4.72 inch or 120mm (Burnaby) &#x0024;400]]></title>
+        <link>http://vancouver.craigslist.ca/bnc/pts/4592334749.html</link>
+        <description><![CDATA[Set of 19" Lenso (wheels only, NO TIRES) Wheels are 19x8 with +35 offset with 5x120 bolt pattern. Wheels are Shadow Chrome with polished lip in colour.
+WILL SUIT MOST JAPANESE 5 BOLT VEHICLES AND BMW'S
+- Wheel size: 5 lug 4.72 inch or 120mm
+- Come [...]]]></description>
+        <dc:date>2014-08-15T18:14:23-07:00</dc:date>
+        <dc:language>en-us</dc:language>
+        <dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+        <dc:source>http://vancouver.craigslist.ca/bnc/pts/4592334749.html</dc:source>
+        <dc:title>
+            <![CDATA[Set of 19 inch Lenso wheels, 5x120, 5 lug 4.72 inch or 120mm (Burnaby) &#x0024;400]]></dc:title>
+        <dc:type>text</dc:type>
+        <enc:enclosure resource="http://images.craigslist.org/00A0A_jmtmReyEyBW_300x300.jpg" type="image/jpeg"/>
+        <dcterms:issued>2014-08-15T18:14:23-07:00</dcterms:issued>
+    </item>
+    <item rdf:about="http://vancouver.craigslist.ca/pml/pts/4621319187.html">
+        <title>
+            <![CDATA[SNOW TIRES ON RIMS FOR BMW E36 - all 3 series 1992-1998 (coquitlam Chapman Ave) &#x0024;400]]></title>
+        <link>http://vancouver.craigslist.ca/pml/pts/4621319187.html</link>
+        <description><![CDATA[Brand New winter snow Tires 95% tread left
+on 15" steel Rims with hub cups fits all BMW E36 - 2door or 4door 3 series from 1992-1998
+all mounted and balanced ready to put on your car and go
+price is only $400 - call John at
+ <a href="/fb/van/pts/4621319187" class="showcontact" title="click to show contact info">show contact info</a>
+]]></description>
+        <dc:date>2014-08-15T18:00:37-07:00</dc:date>
+        <dc:language>en-us</dc:language>
+        <dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+        <dc:source>http://vancouver.craigslist.ca/pml/pts/4621319187.html</dc:source>
+        <dc:title>
+            <![CDATA[SNOW TIRES ON RIMS FOR BMW E36 - all 3 series 1992-1998 (coquitlam Chapman Ave) &#x0024;400]]></dc:title>
+        <dc:type>text</dc:type>
+        <enc:enclosure resource="http://images.craigslist.org/01010_5Z3mLsDWJAp_300x300.jpg" type="image/jpeg"/>
+        <dcterms:issued>2014-08-15T18:00:37-07:00</dcterms:issued>
+    </item>
+    <item rdf:about="http://vancouver.craigslist.ca/van/pts/4614727529.html">
+        <title><![CDATA[Set of BRAND NEW BMW WINTER TIREs AND RIMS &#x0024;2000]]></title>
+        <link>http://vancouver.craigslist.ca/van/pts/4614727529.html</link>
+        <description><![CDATA[A set of brand new BMW winter tires and rims for sale. NOT selling separately.
+fits BMW e90-e92. PIRELLI 225/45R17
+BRAND NEW!]]></description>
+        <dc:date>2014-08-15T17:51:18-07:00</dc:date>
+        <dc:language>en-us</dc:language>
+        <dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+        <dc:source>http://vancouver.craigslist.ca/van/pts/4614727529.html</dc:source>
+        <dc:title><![CDATA[Set of BRAND NEW BMW WINTER TIREs AND RIMS &#x0024;2000]]></dc:title>
+        <dc:type>text</dc:type>
+        <enc:enclosure resource="http://images.craigslist.org/01515_fxEtz5uGJZ2_300x300.jpg" type="image/jpeg"/>
+        <dcterms:issued>2014-08-15T17:51:18-07:00</dcterms:issued>
+    </item>
+    <item rdf:about="http://vancouver.craigslist.ca/bnc/ptd/4614589180.html">
+        <title><![CDATA[BRIDGESTONE DUELER H/L 400 RUNFLAT 255/55/18 BMW TIRE/RIM PKG  (new west) &#x0024;950]]></title>
+        <link>http://vancouver.craigslist.ca/bnc/ptd/4614589180.html</link>
+        <description><![CDATA[BRIDGESTONE DUELER H/L 400 RUNFLAT TIRE/RIM PACKAGE!
+CAME OFF 2012 BMW X5 DIESEL!
+255/55/18
+2 TIRES AT 5/32'S
+2 TIRES AT 6/32'S
+AUTOMOTIVE WAREHOUSE CLEAN OUT SALE! EVERYTHING MUST GO! ]]></description>
+        <dc:date>2014-08-15T16:50:21-07:00</dc:date>
+        <dc:language>en-us</dc:language>
+        <dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+        <dc:source>http://vancouver.craigslist.ca/bnc/ptd/4614589180.html</dc:source>
+        <dc:title>
+            <![CDATA[BRIDGESTONE DUELER H/L 400 RUNFLAT 255/55/18 BMW TIRE/RIM PKG  (new west) &#x0024;950]]></dc:title>
+        <dc:type>text</dc:type>
+        <enc:enclosure resource="http://images.craigslist.org/00Y0Y_4seKZGyAhd1_300x300.jpg" type="image/jpeg"/>
+        <dcterms:issued>2014-08-15T16:50:21-07:00</dcterms:issued>
+    </item>
+    <item rdf:about="http://vancouver.craigslist.ca/bnc/ptd/4614557103.html">
+        <title>
+            <![CDATA[MICHELIN LATITUDE TOUR HP COMPLETE RIM/TIRE PACKAGE! BMW X5 FULL SET  (new west) &#x0024;800]]></title>
+        <link>http://vancouver.craigslist.ca/bnc/ptd/4614557103.html</link>
+        <description><![CDATA[MICHELIN LATITUDE TOUR HP COMPLETE RIM/TIRE PACKAGE!
+CAME OFF 2011 BMW X5 DIESEL!
+255/55/18
+2 TIRES AT 5/32'S
+2 TIRES AT 6/32'S
+AUTOMOTIVE WAREHOUSE CLEAN OUT! ALL RIM/TIRE PACKAGES MUST GO! ]]></description>
+        <dc:date>2014-08-15T16:44:26-07:00</dc:date>
+        <dc:language>en-us</dc:language>
+        <dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+        <dc:source>http://vancouver.craigslist.ca/bnc/ptd/4614557103.html</dc:source>
+        <dc:title>
+            <![CDATA[MICHELIN LATITUDE TOUR HP COMPLETE RIM/TIRE PACKAGE! BMW X5 FULL SET  (new west) &#x0024;800]]></dc:title>
+        <dc:type>text</dc:type>
+        <enc:enclosure resource="http://images.craigslist.org/00202_gGflguE1qVI_300x300.jpg" type="image/jpeg"/>
+        <dcterms:issued>2014-08-15T16:44:26-07:00</dcterms:issued>
+    </item>
+    <item rdf:about="http://vancouver.craigslist.ca/bnc/ptd/4614570974.html">
+        <title><![CDATA[MICHELIN LATITUDE TOUR HP 255/55/18 BMW X5 RIM/TIRE PKG  (new west) &#x0024;750]]></title>
+        <link>http://vancouver.craigslist.ca/bnc/ptd/4614570974.html</link>
+        <description><![CDATA[MICHELIN LATITUDE TOUR HP RIM/TIRE PACKAGE!
+CAME OFF A 2012 BMW X5 DIESEL!
+255/55/18
+TREAD DEPTH 5/32'S - 6/32'S ALL FOUR TIRES!
+AUTOMOTIVE WAREHOUSE CLEANOUT SALE! EVERYTHING MUST GO! ]]></description>
+        <dc:date>2014-08-15T16:40:46-07:00</dc:date>
+        <dc:language>en-us</dc:language>
+        <dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+        <dc:source>http://vancouver.craigslist.ca/bnc/ptd/4614570974.html</dc:source>
+        <dc:title><![CDATA[MICHELIN LATITUDE TOUR HP 255/55/18 BMW X5 RIM/TIRE PKG  (new west) &#x0024;750]]></dc:title>
+        <dc:type>text</dc:type>
+        <enc:enclosure resource="http://images.craigslist.org/00r0r_31uWPXpyigS_300x300.jpg" type="image/jpeg"/>
+        <dcterms:issued>2014-08-15T16:40:46-07:00</dcterms:issued>
+    </item>
+    <item rdf:about="http://vancouver.craigslist.ca/bnc/pts/4621216626.html">
+        <title><![CDATA[FOUR 4 ELBRUS WHEEL WITH TIRES 245/45/18 (NEW WEST BURNABY) &#x0024;750]]></title>
+        <link>http://vancouver.craigslist.ca/bnc/pts/4621216626.html</link>
+        <description><![CDATA[4 NEWER TIRES AND WHEELS ELBRUS, ONLY USED FOR COUPLE OF MONTH 245/45/18 BRIDGESTONE BLIZZAK LM-25V 100V , $750
+ <a href="/fb/van/pts/4621216626" class="showcontact" title="click to show contact info">show contact info</a>
+SHAWN
+OFF FROM 2007 BMW 650IC ALMOST NEW ]]></description>
+        <dc:date>2014-08-15T16:16:42-07:00</dc:date>
+        <dc:language>en-us</dc:language>
+        <dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+        <dc:source>http://vancouver.craigslist.ca/bnc/pts/4621216626.html</dc:source>
+        <dc:title><![CDATA[FOUR 4 ELBRUS WHEEL WITH TIRES 245/45/18 (NEW WEST BURNABY) &#x0024;750]]></dc:title>
+        <dc:type>text</dc:type>
+        <enc:enclosure resource="http://images.craigslist.org/00o0o_7C2VaJ6byEW_300x300.jpg" type="image/jpeg"/>
+        <dcterms:issued>2014-08-15T16:16:42-07:00</dcterms:issued>
+    </item>
+    <item rdf:about="http://vancouver.craigslist.ca/rds/pts/4607146414.html">
+        <title><![CDATA[20" Niche Wheels for 07-12 MDX with Tires/TPMS &#x0024;800]]></title>
+        <link>http://vancouver.craigslist.ca/rds/pts/4607146414.html</link>
+        <description><![CDATA[Almost new tires used for only 3 months, with Niche GT5 Black Wheels, some curb rash hence the price. Looks good on MDX. will fits BMW X5 too. 120x5. 275/40R20. Comes with TPMS for MDX
+Paid $2000 for them Will fits BMW X5 too
+Acura MDX, X5,
+Need t [...]]]></description>
+        <dc:date>2014-08-15T15:26:16-07:00</dc:date>
+        <dc:language>en-us</dc:language>
+        <dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+        <dc:source>http://vancouver.craigslist.ca/rds/pts/4607146414.html</dc:source>
+        <dc:title><![CDATA[20" Niche Wheels for 07-12 MDX with Tires/TPMS &#x0024;800]]></dc:title>
+        <dc:type>text</dc:type>
+        <enc:enclosure resource="http://images.craigslist.org/00C0C_lvNhJLUW3L6_300x300.jpg" type="image/jpeg"/>
+        <dcterms:issued>2014-08-15T15:26:16-07:00</dcterms:issued>
+    </item>
+    <item rdf:about="http://vancouver.craigslist.ca/rds/pts/4607143107.html">
+        <title><![CDATA[BMW X5 OEM Wheels and Winter Tires/TPMS 98% Tread (South Surrey) &#x0024;1000]]></title>
+        <link>http://vancouver.craigslist.ca/rds/pts/4607143107.html</link>
+        <description>
+            <![CDATA[Selling a full set of OEM X5 wheels with Goodyear Winter tires with 98% tread, used only 1000km. Sold my X5 so I have to sell this set of wheels. The wheels were Plasti Dipped so it can be peeled off if you want them in silver.. Not a single scratch. [...]]]></description>
+        <dc:date>2014-08-15T15:26:04-07:00</dc:date>
+        <dc:language>en-us</dc:language>
+        <dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+        <dc:source>http://vancouver.craigslist.ca/rds/pts/4607143107.html</dc:source>
+        <dc:title><![CDATA[BMW X5 OEM Wheels and Winter Tires/TPMS 98% Tread (South Surrey) &#x0024;1000]]></dc:title>
+        <dc:type>text</dc:type>
+        <enc:enclosure resource="http://images.craigslist.org/00y0y_kwruEUvOEve_300x300.jpg" type="image/jpeg"/>
+        <dcterms:issued>2014-08-15T15:26:04-07:00</dcterms:issued>
+    </item>
+    <item rdf:about="http://vancouver.craigslist.ca/van/pts/4591530551.html">
+        <title>
+            <![CDATA[Summer Special!! Set of 20"winter rims and tires from BMW X5 (Coal Harbour) &#x0024;1200]]></title>
+        <link>http://vancouver.craigslist.ca/van/pts/4591530551.html</link>
+        <description><![CDATA[Set of 4 high-performance winter tires from a BMW X5.
+Nice looking 20" rims with Michelin Latitude Alpin 275/40/20. Good tread.
+Not staggered.
+Slight curb damage. ]]></description>
+        <dc:date>2014-08-15T15:24:37-07:00</dc:date>
+        <dc:language>en-us</dc:language>
+        <dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+        <dc:source>http://vancouver.craigslist.ca/van/pts/4591530551.html</dc:source>
+        <dc:title>
+            <![CDATA[Summer Special!! Set of 20"winter rims and tires from BMW X5 (Coal Harbour) &#x0024;1200]]></dc:title>
+        <dc:type>text</dc:type>
+        <enc:enclosure resource="http://images.craigslist.org/00A0A_7H7UytRraWL_300x300.jpg" type="image/jpeg"/>
+        <dcterms:issued>2014-08-15T15:24:37-07:00</dcterms:issued>
+    </item>
+    <item rdf:about="http://vancouver.craigslist.ca/bnc/pts/4604801563.html">
+        <title><![CDATA[Winter tires with steel rims 205/55/16 5x120 for BMW e46 e36 &#x0024;240]]></title>
+        <link>http://vancouver.craigslist.ca/bnc/pts/4604801563.html</link>
+        <description><![CDATA[Selling winter tires on steel rims.
+Tire size 205 55 16, WinterClaw Extreme Grip WMX
+Descent winter tires, never had problems with them. All tires are no holes nor bulges on them.
+Steelies bolt pattern 5x120 for BMW e46, e36 and may fit other
+2 t [...]]]></description>
+        <dc:date>2014-08-15T15:20:57-07:00</dc:date>
+        <dc:language>en-us</dc:language>
+        <dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+        <dc:source>http://vancouver.craigslist.ca/bnc/pts/4604801563.html</dc:source>
+        <dc:title><![CDATA[Winter tires with steel rims 205/55/16 5x120 for BMW e46 e36 &#x0024;240]]></dc:title>
+        <dc:type>text</dc:type>
+        <enc:enclosure resource="http://images.craigslist.org/00u0u_2pechxfxMap_300x300.jpg" type="image/jpeg"/>
+        <dcterms:issued>2014-08-15T15:20:57-07:00</dcterms:issued>
+    </item>
+    <item rdf:about="http://vancouver.craigslist.ca/pml/pts/4621139179.html">
+        <title><![CDATA[18" MAK rims and Dunlop 18" tires BMW  (Coquitlam) &#x0024;2100]]></title>
+        <link>http://vancouver.craigslist.ca/pml/pts/4621139179.html</link>
+        <description>
+            <![CDATA[From a BMW 5 Series. M A K 7 Spoke rims bolt pattern 5 X 120 offset high front wheels Dunlop SP Sport FM901 235/40R 18, rear wheels Dunlop SP Sport FM901 265/40R 18. Tires and rims have less than 500 Kms on them, no curb rash or marks, like new. Aski [...]]]></description>
+        <dc:date>2014-08-15T15:12:34-07:00</dc:date>
+        <dc:language>en-us</dc:language>
+        <dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+        <dc:source>http://vancouver.craigslist.ca/pml/pts/4621139179.html</dc:source>
+        <dc:title><![CDATA[18" MAK rims and Dunlop 18" tires BMW  (Coquitlam) &#x0024;2100]]></dc:title>
+        <dc:type>text</dc:type>
+        <enc:enclosure resource="http://images.craigslist.org/00n0n_bMnnji1j9rt_300x300.jpg" type="image/jpeg"/>
+        <dcterms:issued>2014-08-15T15:12:34-07:00</dcterms:issued>
+    </item>
+    <item rdf:about="http://vancouver.craigslist.ca/rds/pts/4613707437.html">
+        <title><![CDATA[BMW 525i  15" STOCK RIMS Wheels 1991 Used with BOLTS Tires (South-Surrey) &#x0024;120]]></title>
+        <link>http://vancouver.craigslist.ca/rds/pts/4613707437.html</link>
+        <description><![CDATA[
+ <a href="/fb/van/pts/4613707437" class="showcontact" title="click to show contact info">show contact info</a>
+
+15" BMW 525i Stock Rims Wheels
+1991
+OEM
+Used!
+including USED Bolts!
+Tires Used, two run down, two still with some Life in them Yet
+ <a href="/fb/van/pts/4613707437" class="showcontact" title="click to show contact info">show contact info</a>
+
+CAD 120.00
+ <a href="/fb/van/pts/4613707437" class="showcontact" title="click to show contact info">show contact info</a>
+]]></description>
+        <dc:date>2014-08-15T14:39:01-07:00</dc:date>
+        <dc:language>en-us</dc:language>
+        <dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+        <dc:source>http://vancouver.craigslist.ca/rds/pts/4613707437.html</dc:source>
+        <dc:title>
+            <![CDATA[BMW 525i  15" STOCK RIMS Wheels 1991 Used with BOLTS Tires (South-Surrey) &#x0024;120]]></dc:title>
+        <dc:type>text</dc:type>
+        <enc:enclosure resource="http://images.craigslist.org/00p0p_keDVOHE7RA2_300x300.jpg" type="image/jpeg"/>
+        <dcterms:issued>2014-08-15T14:39:01-07:00</dcterms:issued>
+    </item>
+    <item rdf:about="http://vancouver.craigslist.ca/rds/pts/4612921338.html">
+        <title><![CDATA[BMW 525i  15" STOCK RIMS Wheels 1991 Used with BOLTS Tires (South-Surrey) &#x0024;120]]></title>
+        <link>http://vancouver.craigslist.ca/rds/pts/4612921338.html</link>
+        <description><![CDATA[
+ <a href="/fb/van/pts/4612921338" class="showcontact" title="click to show contact info">show contact info</a>
+
+15" BMW 525i Stock Rims Wheels
+1991
+OEM
+Used!
+including USED Bolts!
+Tires Used, two run down, two still with some Life in them Yet
+ <a href="/fb/van/pts/4612921338" class="showcontact" title="click to show contact info">show contact info</a>
+
+CAD 120.00
+ <a href="/fb/van/pts/4612921338" class="showcontact" title="click to show contact info">show contact info</a>
+]]></description>
+        <dc:date>2014-08-15T14:38:39-07:00</dc:date>
+        <dc:language>en-us</dc:language>
+        <dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+        <dc:source>http://vancouver.craigslist.ca/rds/pts/4612921338.html</dc:source>
+        <dc:title>
+            <![CDATA[BMW 525i  15" STOCK RIMS Wheels 1991 Used with BOLTS Tires (South-Surrey) &#x0024;120]]></dc:title>
+        <dc:type>text</dc:type>
+        <enc:enclosure resource="http://images.craigslist.org/00101_jnwmmtQrMiC_300x300.jpg" type="image/jpeg"/>
+        <dcterms:issued>2014-08-15T14:38:39-07:00</dcterms:issued>
+    </item>
+    <item rdf:about="http://vancouver.craigslist.ca/rds/pts/4609965315.html">
+        <title>
+            <![CDATA[FOUR (4) BMW 525i  15" STOCK RIMS Wheels 1991 Used with BOLTS Tires (South-Surrey) &#x0024;120]]></title>
+        <link>http://vancouver.craigslist.ca/rds/pts/4609965315.html</link>
+        <description><![CDATA[
+ <a href="/fb/van/pts/4609965315" class="showcontact" title="click to show contact info">show contact info</a>
+
+15" BMW 525i Stock Rims Wheels
+1991
+OEM
+Used!
+including USED Bolts!
+Tires Used, two run down, two still with some Life in them Yet
+ <a href="/fb/van/pts/4609965315" class="showcontact" title="click to show contact info">show contact info</a>
+
+CAD 120.00
+ <a href="/fb/van/pts/4609965315" class="showcontact" title="click to show contact info">show contact info</a>
+]]></description>
+        <dc:date>2014-08-15T14:37:01-07:00</dc:date>
+        <dc:language>en-us</dc:language>
+        <dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+        <dc:source>http://vancouver.craigslist.ca/rds/pts/4609965315.html</dc:source>
+        <dc:title>
+            <![CDATA[FOUR (4) BMW 525i  15" STOCK RIMS Wheels 1991 Used with BOLTS Tires (South-Surrey) &#x0024;120]]></dc:title>
+        <dc:type>text</dc:type>
+        <enc:enclosure resource="http://images.craigslist.org/00p0p_keDVOHE7RA2_300x300.jpg" type="image/jpeg"/>
+        <dcterms:issued>2014-08-15T14:37:01-07:00</dcterms:issued>
+    </item>
+    <item rdf:about="http://vancouver.craigslist.ca/rds/pts/4603793936.html">
+        <title><![CDATA[BMW 19" wheels 5x120 (Langley ) &#x0024;1900]]></title>
+        <link>http://vancouver.craigslist.ca/rds/pts/4603793936.html</link>
+        <description><![CDATA[Beyern rapp wheels
+19"
+5x120
+265/30/19 rear inners have camber wear but still good.
+235/35/19 fronts
+Bfgoodrich g-force T/A KDW tires all around
+Id like to sell because I have 2 sets of rims now.
+Rims Like new no curb rash, no vibrations ,
+As [...]]]></description>
+        <dc:date>2014-08-15T13:35:54-07:00</dc:date>
+        <dc:language>en-us</dc:language>
+        <dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+        <dc:source>http://vancouver.craigslist.ca/rds/pts/4603793936.html</dc:source>
+        <dc:title><![CDATA[BMW 19" wheels 5x120 (Langley ) &#x0024;1900]]></dc:title>
+        <dc:type>text</dc:type>
+        <enc:enclosure resource="http://images.craigslist.org/00b0b_5pk7PAjhuV9_300x300.jpg" type="image/jpeg"/>
+        <dcterms:issued>2014-08-15T13:35:54-07:00</dcterms:issued>
+    </item>
+    <item rdf:about="http://vancouver.craigslist.ca/rds/pts/4620867523.html">
+        <title><![CDATA[Wheels and Tires (Tires like NEW) (surrey) &#x0024;1150]]></title>
+        <link>http://vancouver.craigslist.ca/rds/pts/4620867523.html</link>
+        <description><![CDATA[Piaa Racing wheels
+- light weight and strong
+- carbon fiber center caps
+- 5 bolt pattern (114.3)
+- +48 offset
+- made in Japan
+- Hyper black gun metal color
+- wheels are brand new. 10/10 condition
+with Continental DWS tires.fairly new, lots of [...]]]></description>
+        <dc:date>2014-08-15T12:41:39-07:00</dc:date>
+        <dc:language>en-us</dc:language>
+        <dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+        <dc:source>http://vancouver.craigslist.ca/rds/pts/4620867523.html</dc:source>
+        <dc:title><![CDATA[Wheels and Tires (Tires like NEW) (surrey) &#x0024;1150]]></dc:title>
+        <dc:type>text</dc:type>
+        <enc:enclosure resource="http://images.craigslist.org/00K0K_fbc4PDKuOUI_300x300.jpg" type="image/jpeg"/>
+        <dcterms:issued>2014-08-15T12:41:39-07:00</dcterms:issued>
+    </item>
+    <item rdf:about="http://vancouver.craigslist.ca/rds/pts/4620734508.html">
+        <title><![CDATA[4x100 rims (Surrey delta) &#x0024;10]]></title>
+        <link>http://vancouver.craigslist.ca/rds/pts/4620734508.html</link>
+        <description><![CDATA[4 x 100 steelies 13" came off Honda will fit many other cars listed
+Excellent used condition
+4 rims 10$ each
+$40
+ <a href="/fb/van/pts/4620734508" class="showcontact" title="click to show contact info">show contact info</a>
+
+Acura INTEGRA 86-01 14 X 6
+Audi 4000 79-84 14 X 6
+Audi 4000S 76-84 13 X 5.5
+Audi 80,90 QUATTRO To '87 13 X 5.5
+Audi [...]]]></description>
+        <dc:date>2014-08-15T12:28:01-07:00</dc:date>
+        <dc:language>en-us</dc:language>
+        <dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+        <dc:source>http://vancouver.craigslist.ca/rds/pts/4620734508.html</dc:source>
+        <dc:title><![CDATA[4x100 rims (Surrey delta) &#x0024;10]]></dc:title>
+        <dc:type>text</dc:type>
+        <enc:enclosure resource="http://images.craigslist.org/00303_9l0To8ppXJR_300x300.jpg" type="image/jpeg"/>
+        <dcterms:issued>2014-08-15T12:28:01-07:00</dcterms:issued>
+    </item>
+    <item rdf:about="http://vancouver.craigslist.ca/van/pts/4620680712.html">
+        <title><![CDATA[17" Pirelli Winter Snow Tires Sport BMW Wheels (Vancouver) &#x0024;1500]]></title>
+        <link>http://vancouver.craigslist.ca/van/pts/4620680712.html</link>
+        <description><![CDATA[17" Wheels and Snow tires for BMW
+Under 1000km only for BMW
+Wheels do have some scuffs as they were for winter use.
+The tires are Pirelli and the size is 205/50/17 which is better than 225/45/17 meaning it will bite into the snow and ice better.
+ [...]]]></description>
+        <dc:date>2014-08-15T11:21:28-07:00</dc:date>
+        <dc:language>en-us</dc:language>
+        <dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+        <dc:source>http://vancouver.craigslist.ca/van/pts/4620680712.html</dc:source>
+        <dc:title><![CDATA[17" Pirelli Winter Snow Tires Sport BMW Wheels (Vancouver) &#x0024;1500]]></dc:title>
+        <dc:type>text</dc:type>
+        <enc:enclosure resource="http://images.craigslist.org/01212_6XFwVuTnjFG_300x300.jpg" type="image/jpeg"/>
+        <dcterms:issued>2014-08-15T11:21:28-07:00</dcterms:issued>
+    </item>
+    <item rdf:about="http://vancouver.craigslist.ca/van/ptd/4612788614.html">
+        <title><![CDATA[BMW" 19" PACAKGE FOR BMW   (surrey bc) &#x0024;1850]]></title>
+        <link>http://vancouver.craigslist.ca/van/ptd/4612788614.html</link>
+        <description><![CDATA[19" PACAKGE FOR BMW 3 SERIES.
+19X8.5 FRONTS / 19X10 REAR Vossion
+PACKAGE PRICES WITH DIFFERENT TIRES
+TIRANGLE $1699.00
+IRONMAN IMOVE $1899.00
+MICHELIN PILOT SUPER SPORT $2549.00
+ALL 5 STYLES IN PICTURE AVAILIBLE,
+BMW E90 -- (2005--2011/EUR, 20 [...]]]></description>
+        <dc:date>2014-08-15T11:02:28-07:00</dc:date>
+        <dc:language>en-us</dc:language>
+        <dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+        <dc:source>http://vancouver.craigslist.ca/van/ptd/4612788614.html</dc:source>
+        <dc:title><![CDATA[BMW" 19" PACAKGE FOR BMW   (surrey bc) &#x0024;1850]]></dc:title>
+        <dc:type>text</dc:type>
+        <enc:enclosure resource="http://images.craigslist.org/00Q0Q_6EquwpH9Jhm_300x300.jpg" type="image/jpeg"/>
+        <dcterms:issued>2014-08-15T11:02:28-07:00</dcterms:issued>
+    </item>
+    <item rdf:about="http://vancouver.craigslist.ca/van/ptd/4593246587.html">
+        <title><![CDATA[BMW WHEELS &amp; TIRES: 265/30R19 REAR AND 235/35R19 FRONT (surrey bc) &#x0024;1]]></title>
+        <link>http://vancouver.craigslist.ca/van/ptd/4593246587.html</link>
+        <description><![CDATA[Mounted and balanced with 235/35/19 or 245/35/19 Triangle TR968 tires for only $1650 + tax!
+with Zenna UHP Tires with vossin wheels for $1850 + tax installed and balanced
+TIRES: 265/30R19 91W Triangle TR968 $159 Each
+235/35R19 FRONT91V Triangle TR [...]]]></description>
+        <dc:date>2014-08-15T11:01:21-07:00</dc:date>
+        <dc:language>en-us</dc:language>
+        <dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+        <dc:source>http://vancouver.craigslist.ca/van/ptd/4593246587.html</dc:source>
+        <dc:title>
+            <![CDATA[BMW WHEELS &amp; TIRES: 265/30R19 REAR AND 235/35R19 FRONT (surrey bc) &#x0024;1]]></dc:title>
+        <dc:type>text</dc:type>
+        <enc:enclosure resource="http://images.craigslist.org/00202_jIpxTLfhevZ_300x300.jpg" type="image/jpeg"/>
+        <dcterms:issued>2014-08-15T11:01:21-07:00</dcterms:issued>
+    </item>
+    <item rdf:about="http://vancouver.craigslist.ca/rds/pts/4582167543.html">
+        <title><![CDATA[S14 240sx Kouki Body Kit (VIS Racing) (south surrey) &#x0024;500]]></title>
+        <link>http://vancouver.craigslist.ca/rds/pts/4582167543.html</link>
+        <description><![CDATA[A VIS Racing body kit off a 1997 Nissan Silvia "kouki" or 240sx.
+A couple of dings on the side skirts but nothing major.
+Looking for $500 OBO
+Tags: zenki kouki Mazda Skyline, Sti, Honda, Civic, s13 s14 sr20det tuner, tuck, clean, gti, supra, jdm,  [...]]]></description>
+        <dc:date>2014-08-15T10:46:34-07:00</dc:date>
+        <dc:language>en-us</dc:language>
+        <dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+        <dc:source>http://vancouver.craigslist.ca/rds/pts/4582167543.html</dc:source>
+        <dc:title><![CDATA[S14 240sx Kouki Body Kit (VIS Racing) (south surrey) &#x0024;500]]></dc:title>
+        <dc:type>text</dc:type>
+        <enc:enclosure resource="http://images.craigslist.org/00g0g_kSKE2bwF63x_300x300.jpg" type="image/jpeg"/>
+        <dcterms:issued>2014-08-15T10:46:34-07:00</dcterms:issued>
+    </item>
+    <item rdf:about="http://vancouver.craigslist.ca/rds/pts/4620532112.html">
+        <title><![CDATA[19" Nokian OEM X5 BMW Winter package (surrey)]]></title>
+        <link>http://vancouver.craigslist.ca/rds/pts/4620532112.html</link>
+        <description><![CDATA[FOR SALE is a Nice set of Genuine Factory staggered BMW X5 19" 5 spoke winter setup OEM equipment for BMW X5 for E53 Body. These will fit X5 models 2000 up to 2006 only
+The rims have 255-50-19 4X4 Nokian WR winter tires mounted on them with approx 9 [...]]]></description>
+        <dc:date>2014-08-15T09:49:05-07:00</dc:date>
+        <dc:language>en-us</dc:language>
+        <dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+        <dc:source>http://vancouver.craigslist.ca/rds/pts/4620532112.html</dc:source>
+        <dc:title><![CDATA[19" Nokian OEM X5 BMW Winter package (surrey)]]></dc:title>
+        <dc:type>text</dc:type>
+        <enc:enclosure resource="http://images.craigslist.org/00f0f_7jKejKRlAW4_300x300.jpg" type="image/jpeg"/>
+        <dcterms:issued>2014-08-15T09:49:05-07:00</dcterms:issued>
+    </item>
+    <item rdf:about="http://vancouver.craigslist.ca/rds/pts/4620428393.html">
+        <title><![CDATA[Set of 18" BMW Style 93 Dunlop winter setup E65 excellent cond (L mainland)]]></title>
+        <link>http://vancouver.craigslist.ca/rds/pts/4620428393.html</link>
+        <description><![CDATA[Up for Sale is a set of 18" OEM BMW 7 series Multi spoke Style 93 rims with Dunlop winter package
+made for BMW 7 series for E65+ Body. These will Also fit other models too so please ask us for advise and verification
+All wheels are in excellent con [...]]]></description>
+        <dc:date>2014-08-15T09:05:07-07:00</dc:date>
+        <dc:language>en-us</dc:language>
+        <dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+        <dc:source>http://vancouver.craigslist.ca/rds/pts/4620428393.html</dc:source>
+        <dc:title><![CDATA[Set of 18" BMW Style 93 Dunlop winter setup E65 excellent cond (L mainland)]]></dc:title>
+        <dc:type>text</dc:type>
+        <enc:enclosure resource="http://images.craigslist.org/00505_9nYntWUerdz_300x300.jpg" type="image/jpeg"/>
+        <dcterms:issued>2014-08-15T09:05:07-07:00</dcterms:issued>
+    </item>
+</rdf:RDF>

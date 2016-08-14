@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns="http://purl.org/rss/1.0/"
+        xmlns:enc="http://purl.oclc.org/net/rss_2.0/enc#"
+        xmlns:ev="http://purl.org/rss/1.0/modules/event/"
+        xmlns:content="http://purl.org/rss/1.0/modules/content/"
+        xmlns:dcterms="http://purl.org/dc/terms/"
+        xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+        xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+        xmlns:admin="http://webns.net/mvcb/"
+        >
+
+    <channel rdf:about="http://vancouver.craigslist.ca/search/sss/?excats=5-2-13-22-26-1-4-19-1-1-1-1-1-1-3-6-10-1-1-1-4-8-1-1-1-1-1-8-1-3-1-1-1-1-7-2-2-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1&#x26;amp;format=rss&#x26;amp;query=adsad&#x26;amp;format=rss">
+        <title>craigslist vancouver, BC | for sale / wanted search "adsad"</title>
+        <link>http://vancouver.craigslist.ca/search/sss/?excats=5-2-13-22-26-1-4-19-1-1-1-1-1-1-3-6-10-1-1-1-4-8-1-1-1-1-1-8-1-3-1-1-1-1-7-2-2-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1&#x26;amp;query=adsad</link>
+        <description></description>
+        <dc:language>en-us</dc:language>
+        <dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+        <dc:publisher>robot@craigslist.org</dc:publisher>
+        <dc:creator>robot@craigslist.org</dc:creator>
+        <dc:source>http://vancouver.craigslist.ca/search/sss/?excats=5-2-13-22-26-1-4-19-1-1-1-1-1-1-3-6-10-1-1-1-4-8-1-1-1-1-1-8-1-3-1-1-1-1-7-2-2-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1&#x26;amp;format=rss&#x26;amp;query=adsad&#x26;amp;format=rss</dc:source>
+        <dc:title>craigslist vancouver, BC | for sale / wanted search "adsad"</dc:title>
+        <dc:type>Collection</dc:type>
+        <syn:updateBase>2014-10-08T22:13:40-07:00</syn:updateBase>
+        <syn:updateFrequency>1</syn:updateFrequency>
+        <syn:updatePeriod>hourly</syn:updatePeriod>
+        <items>
+            <rdf:Seq>
+            </rdf:Seq>
+        </items>
+    </channel>
+</rdf:RDF>
