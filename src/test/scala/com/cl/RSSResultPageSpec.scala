@@ -39,7 +39,6 @@ class RSSResultPageSpec extends FlatSpec with Matchers with FileBasedTest{
     }
 
     it should "date time of the RSS feed" in {
-
         assertResult(DateTimeFormat.forPattern(RssResultPage.DATE_PATTERN).parseDateTime("2014-08-17T11:48:18-07:00")) {
             new RssResultPage(rssFile).updateDate
         }

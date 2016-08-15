@@ -8,7 +8,7 @@ import com.cl.RssResultPage._
 import scala.util.Failure
 import scala.Some
 
-class RssItemParser {
+class RssSingleItemParser {
 
     def anRssItem(singleRssItemXml:Node):Try[RssItem]= {
         val title = (singleRssItemXml \ "title").head.text

@@ -6,7 +6,7 @@ import scala.xml.XML
 import java.net.URL
 import org.joda.time.format.DateTimeFormat
 import scala.util.Success
-import com.cl.result.RssItemParser
+import com.cl.result.RssSingleItemParser
 
 class RssItemParserSpec extends FlatSpec with Matchers with FileBasedTest {
 
@@ -16,7 +16,7 @@ class RssItemParserSpec extends FlatSpec with Matchers with FileBasedTest {
         val xml = XML.loadString(readFile("rssSingleItem.xml"))
         val itemNode = (xml \\ "item").head
 
-        val anItem = new RssItemParser().anRssItem(itemNode)
+        val anItem = new RssSingleItemParser().anRssItem(itemNode)
 
         assert(anItem.isSuccess)
 
@@ -46,13 +46,13 @@ class RssItemParserSpec extends FlatSpec with Matchers with FileBasedTest {
 
     it should "return None for ad ID given a mal-formed CL URL" in {
         assertResult(true) {
-            new RssItemParser().getRssItemId("http://some.yurl.does.not.have/id").isFailure
+            new RssSingleItemParser().getRssItemId("http://some.yurl.does.not.have/id").isFailure
         }
     }
 
     it should "return Some ID for ad ID given a well-formed CL URL" in {
         assertResult(Success(12345)) {
-            new RssItemParser().getRssItemId("http://some.yurl.does.not.have/12345.html")
+            new RssSingleItemParser().getRssItemId("http://some.yurl.does.not.have/12345.html")
         }
     }
 
