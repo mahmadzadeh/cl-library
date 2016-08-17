@@ -1,17 +1,11 @@
 package com.cl
 
-import com.cl.url.{CLUrl, Query}
+import com.cl.result.Result
+import com.cl.url.CLUrl
 
-class  Monitor(val url :CLUrl) {
+class Monitor(val url: CLUrl) {
 
-    def execute():MonitorExecutionResult = {
-        return new MonitorExecutionResult
-    }
-}
-
-class MonitorExecutionResult {
-
-    def compare(anotherResult:MonitorExecutionResult):MonitorExecutionResult = {
-        new MonitorExecutionResult
-    }
+  def execute(): Result = {
+    return new Result()
+  }
 }

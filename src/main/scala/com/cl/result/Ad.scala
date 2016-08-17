@@ -9,6 +9,6 @@ case class Ad(val id: String, val title: String,
 
     def isPostedBefore(anotherAd: Ad): Boolean = this.postedDate < anotherAd.postedDate
 
-    def posterDesperationLevel(): PosterDesperationLevel =
-                    PosterDesperationLevel.tellMeHowDesparatePosterIs(this.postedDate)
+    def posterDesperationLevel(currentTime: Long = System.currentTimeMillis()): PosterDesperationLevel =
+      PosterDesperationLevel.tellMeHowDesparatePosterIs(this.postedDate, currentTime )
 }

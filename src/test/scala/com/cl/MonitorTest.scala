@@ -28,5 +28,4 @@ class MonitorTest extends FunSuite with BeforeAndAfter with Assertions with Mock
         assert(monitorResult !=null)
     }
 
-
 }

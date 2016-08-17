@@ -1,12 +1,11 @@
 package com.cl
 
-import org.scalatest.{BeforeAndAfter, FunSuite}
-import scala.Some
-import org.junit.runner.RunWith
-import org.scalatest.junit.JUnitRunner
-import com.utils.DateTimeUtil._
 import com.cl.PosterDesperationLevel._
 import com.cl.result.Ad
+import com.utils.DateTimeUtil._
+import org.junit.runner.RunWith
+import org.scalatest.junit.JUnitRunner
+import org.scalatest.{BeforeAndAfter, FunSuite}
 
 @RunWith(classOf[JUnitRunner])
 class AdTest extends FunSuite with BeforeAndAfter {
@@ -70,30 +69,33 @@ class AdTest extends FunSuite with BeforeAndAfter {
 
     test("poster desparation level for an ad posted 2 days ago") {
 
-        val twoDaysAgoInMillis = System.currentTimeMillis() - millisInTwoDays()
+        val now: Long = System.currentTimeMillis()
+        val twoDaysAgoInMillis = now - millisInTwoDays()
 
         val ad1 = Ad("1234", "2006 BMW all wheel drive", twoDaysAgoInMillis, None, "http://someURL.com")
 
-        assert(HOPEFUL == ad1.posterDesperationLevel())
+        assert(HOPEFUL == ad1.posterDesperationLevel(now))
 
     }
 
     test("poster desparation level for an ad posted 10 days ago") {
 
-        val tenDaysAgo = System.currentTimeMillis() - millisInDays(10)
+        val now: Long = System.currentTimeMillis()
+        val tenDaysAgo = now - millisInDays(10)
 
         val ad1 = Ad("1234", "2006 BMW all wheel drive", tenDaysAgo, None, "http://someURL.com")
 
-        assert(OPTIMISTIC == ad1.posterDesperationLevel())
+        assert(OPTIMISTIC == ad1.posterDesperationLevel(now))
     }
 
     test("poster desparation level for an ad posted 10 days and 10 seconds ago") {
 
-        val tenDaysAgo = System.currentTimeMillis() - millisInDays(10) - 10000
+        val now: Long = System.currentTimeMillis()
+        val tenDaysAgo = now - millisInDays(10) - 10000
 
         val ad1 = Ad("1234", "2006 BMW all wheel drive", tenDaysAgo, None, "http://someURL.com")
 
-        assert(DESPERATE == ad1.posterDesperationLevel())
+        assert(DESPERATE == ad1.posterDesperationLevel(now))
     }
 
     test("poster desparation level for an ad posted 30 days ago") {
@@ -114,7 +116,7 @@ class AdTest extends FunSuite with BeforeAndAfter {
 
         val ad1 = Ad("1234", "2006 BMW all wheel drive", thirtyDaysAgo, None, "http://someURL.com")
 
-        assert(DESPERATE == ad1.posterDesperationLevel())
+        assert(DESPERATE == ad1.posterDesperationLevel(now))
     }
 }
 
