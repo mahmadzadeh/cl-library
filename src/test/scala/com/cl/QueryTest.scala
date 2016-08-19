@@ -1,15 +1,11 @@
 package com.cl
 
-import org.scalatest.{BeforeAndAfter, FunSuite, Assertions}
-import com.cl.url._
-import scala.Some
-import CLQueryParameter._
-import SearchCategory._
+import com.cl.url.CLQueryParameter._
+import com.cl.url.SearchCategory._
+import com.cl.url.{CLQueryParameter, SearchParameter, _}
 import org.junit.runner.RunWith
 import org.scalatest.junit.JUnitRunner
-import com.cl.url.CLQueryParameter
-import com.cl.url.SearchParameter
-import scala.Some
+import org.scalatest.{Assertions, BeforeAndAfter, FunSuite}
 
 @RunWith(classOf[JUnitRunner])
 class QueryTest extends FunSuite with BeforeAndAfter with Assertions {
@@ -20,7 +16,7 @@ class QueryTest extends FunSuite with BeforeAndAfter with Assertions {
 
     test("query adding a parameter to query") {
 
-        val query = new Query(Map[CLQueryParameter,String](), CARS_TRUCKS_ALL)
+        val query = new Query(Map[CLQueryParameter, String](), CARS_TRUCKS_ALL)
                     .withImage
 
         assertResult(1) {
@@ -30,11 +26,11 @@ class QueryTest extends FunSuite with BeforeAndAfter with Assertions {
 
     test("query adding multiple parameters to query") {
 
-        val query = new Query(Map[CLQueryParameter,String](), CARS_TRUCKS_ALL)
-                        .withImage
-                        .withMaxPrice(2000)
-                        .withMinPrice(1000)
-                        .withSearchScope("T")
+        val query = new Query(Map[CLQueryParameter, String](), CARS_TRUCKS_ALL)
+                    .withImage
+                    .withMaxPrice(2000)
+                    .withMinPrice(1000)
+                    .withSearchScope("T")
 
         assertResult(4) {
             query.queryParameters.size
@@ -72,14 +68,22 @@ class QueryTest extends FunSuite with BeforeAndAfter with Assertions {
         val query = new Query(SearchCategory.CARS_TRUCKS_ALL)
 
 
-         assertResult("search/cta?hasPic=true&minAsk=2000&maxAsk=2500&format=rss"){
-             query
-            .withImage
-            .withMinPrice(2000)
-            .withMaxPrice(2500)
-            .inRSSFormat
-            .buildQueryString
-        }
+        val format: Query = query
+                            .withImage
+                            .withMinPrice(2000)
+                            .withMaxPrice(2500)
+                            .inRSSFormat
+                            .withQueryText("m3")
+
+        val expectedParams = Seq(
+                                    SearchParameter(QUERY, "m3"),
+                                    SearchParameter(IMAGE, "true"),
+                                    SearchParameter(PRICE_MIN, "2000"),
+                                    SearchParameter(PRICE_MAX, "2500"),
+                                    SearchParameter(FORMAT, "rss")
+                                )
+
+        assertQueryContainsParameters(format.buildQueryString, expectedParams)
     }
 
     test("can add pagination offset to query") {
@@ -99,12 +103,18 @@ class QueryTest extends FunSuite with BeforeAndAfter with Assertions {
         }
     }
 
-    def assertQueryContains(query: String, term: SearchParameter) {
+    def assertQueryContainsParameter(query: String, term: SearchParameter) {
         assert(query.contains(term.toString))
     }
 
+    def assertQueryContainsParameters(query: String, terms: Seq[SearchParameter]) {
+        terms.foreach(term => assertQueryContainsParameter(query, term))
+    }
+
     def assertSearchTermExist(query: Query, queryParam: CLQueryParameter) {
-        assert(query.queryParameters.exists { _._1 == queryParam})
+        assert(query.queryParameters.exists {
+            _._1 == queryParam
+        })
     }
 }
 

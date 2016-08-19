@@ -1,10 +1,8 @@
-package com.cl
+package com.cl.result
 
-import org.scalatest.{Matchers, FlatSpec}
-import scala.xml.{Node, XML}
-import java.net.URL
+import com.cl.FileBasedTest
 import org.joda.time.format._
-import org.joda.time.DateTime
+import org.scalatest.{FlatSpec, Matchers}
 
 class RSSResultPageSpec extends FlatSpec with Matchers with FileBasedTest{
 

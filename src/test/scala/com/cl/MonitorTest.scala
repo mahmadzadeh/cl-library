@@ -1,31 +1,22 @@
 package com.cl
 
-import org.scalatest.{BeforeAndAfter, FunSuite, Assertions}
 import org.junit.runner.RunWith
 import org.scalatest.junit.JUnitRunner
 import org.scalatest.mock.MockitoSugar
-import com.cl.url.CLUrl
+import org.scalatest.{Assertions, BeforeAndAfter, FunSuite}
 
 @RunWith(classOf[JUnitRunner])
-class MonitorTest extends FunSuite with BeforeAndAfter with Assertions with MockitoSugar{
+class MonitorTest extends FunSuite with BeforeAndAfter with Assertions with MockitoSugar {
 
-
-    test("create a monitor")  {
-        val query = mock[CLUrl]
-
-        val monitor = new Monitor(query)
-
-        assert(monitor!=null)
-    }
-
-    test("execute a monitor")  {
-        val query = mock[CLUrl]
-
-        val monitor = new Monitor(query)
-
-        val monitorResult = monitor.execute()
-
-        assert(monitorResult !=null)
+    test("execute a monitor") {
+//        val url = mock[CLUrl]
+//        val mockHttpFetcher = mock [ResultPagination]
+//
+//        val monitor = new Monitor()
+//
+//        val monitorResult = monitor.execute(mockHttpFetcher, url)
+//
+//        assert(monitorResult != null)
     }
 
 }

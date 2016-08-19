@@ -1,14 +1,20 @@
-package com.cl
+package com.cl.result
 
-import org.specs2.mutable.Specification
-import org.scalatest.{Matchers, FlatSpec}
-import scala.xml.XML
 import java.net.URL
+
+import com.cl.FileBasedTest
+import org.joda.time.DateTime
 import org.joda.time.format.DateTimeFormat
+import org.scalatest.{FlatSpec, Matchers}
+
 import scala.util.Success
-import com.cl.result.RssSingleItemParser
+import scala.xml.XML
 
 class RssItemParserSpec extends FlatSpec with Matchers with FileBasedTest {
+
+    val date: DateTime = new DateTime()
+    val linkURL = Some(new URL("http://google.com/action?one=1&two=2"))
+    val imageURL = Some(new URL("http://google.com/action?one=1&two=2"))
 
     behavior of "RSS item parser"
 

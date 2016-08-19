@@ -1,12 +1,12 @@
 package com.cl.result
 
-import scala.xml.Node
 import java.net.URL
-import scala.util.Try
+
+import com.cl.result.RssResultPage._
 import org.joda.time.format.DateTimeFormat.forPattern
-import com.cl.RssResultPage._
-import scala.util.Failure
-import scala.Some
+
+import scala.util.{Failure, Try}
+import scala.xml.Node
 
 class RssSingleItemParser {
 

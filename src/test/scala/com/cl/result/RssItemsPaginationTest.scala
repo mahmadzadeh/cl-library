@@ -1,21 +1,21 @@
-package com.cl
+package com.cl.result
 
-import org.scalatest.{ Matchers, FlatSpec}
-import com.cl.url.{City, CLUrl, SearchCategory, Query}
-import org.apache.commons.httpclient.HttpClient
+import com.cl.url.{CLUrl, City, Query, SearchCategory}
+import com.cl.{FileBasedTest, HttpFetcher}
 import com.utils.HttpUtil
-import org.mockito.Mockito._
-import org.mockito.Matchers._
+import org.apache.commons.httpclient.HttpClient
 import org.apache.commons.httpclient.methods.GetMethod
+import org.mockito.Matchers._
+import org.mockito.Mockito._
 import org.scalatest.mock.MockitoSugar
-import com.cl.result.Result
+import org.scalatest.{FlatSpec, Matchers}
 
-class ResultPaginationTest extends FlatSpec with Matchers with FileBasedTest  with MockitoSugar{
+class RssItemsPaginationTest extends FlatSpec with Matchers with FileBasedTest  with MockitoSugar{
 
     behavior of "a Craigs list rss search result traverser"
 
     val query  = new CLUrl(City.VANCOUVER, new Query(SearchCategory.CARS_TRUCKS_ALL).withImage.withMaxPrice(2000))
-    val result = new Result()
+    val result = new RssItems()
 
     it should "take a craigs list url and an http fetcher"  in {
         val httpClient = HttpUtil(new HttpClient())

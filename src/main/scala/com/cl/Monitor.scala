@@ -1,11 +1,15 @@
 package com.cl
 
-import com.cl.result.Result
+import com.cl.result.{ResultPagination, RssItems}
 import com.cl.url.CLUrl
 
-class Monitor(val url: CLUrl) {
+import scala.util.{Success, Try}
 
-  def execute(): Result = {
-    return new Result()
-  }
+class Monitor() {
+
+    def execute(resultPagination: ResultPagination, url: CLUrl): RssItems = resultPagination.traverse(url, new RssItems())
+
+
+
+
 }
