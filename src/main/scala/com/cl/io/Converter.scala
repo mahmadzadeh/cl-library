@@ -13,7 +13,9 @@ object Converter {
         new RssItems((xml \\ "items" \ "item").map { oneItem => convertRssItemFromXML(oneItem) }.toSet)
 
     def convertRssItemsToXML(items: RssItems): Elem =
-        <items>{ items.items.map(oneItem => convertRssItemToXml(oneItem))} </items>
+        <items>
+            {items.items.map(oneItem => convertRssItemToXml(oneItem))}
+        </items>
 
     def convertRssItemFromXML(elem: Node): RssItem =
         RssItem(
@@ -22,8 +24,7 @@ object Converter {
             (elem \ "description").text.trim,
             new DateTime((elem \ "date").text.trim),
             (elem \ "link").filter(!_.text.isEmpty).map { linkNode => new URL(linkNode.text.trim) }.headOption,
-            (elem \ "image").filter(!_.text.isEmpty).map(linkNode => new URL(linkNode.text.trim)).headOption
-        )
+            (elem \ "image").filter(!_.text.isEmpty).map(linkNode => new URL(linkNode.text.trim)).headOption)
 
     def convertRssItemToXml(item: RssItem): Elem =
         <item>
@@ -38,11 +39,9 @@ object Converter {
             </description>
             <date>
                 {item.date}
-            </date>{item.link.map(url => <link>
-            {PCData(url.toString)}
-        </link>).getOrElse(<link/>)}{item.image.map(url => <image>
-            {PCData(url.toString)}
-        </image>).getOrElse(<image/>)}
+            </date>
+            {item.link.map(url => <link> {PCData(url.toString)}</link>).getOrElse(<link/>)}
+            {item.image.map(url => <image>{PCData(url.toString)}</image>).getOrElse(<image/>)}
         </item>
 
 }

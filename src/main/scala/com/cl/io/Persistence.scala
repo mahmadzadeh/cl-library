@@ -1,12 +1,10 @@
 package com.cl.io
 
-import com.cl.result.RssItem
-
-import scala.util.Try
+import com.cl.result.RssItems
 
 trait Persistence {
 
-    def read(): Try[Seq[RssItem]]
+    def read(): RssItems
 
-    def write(jsonData: Seq[RssItem])
+    def write(rssItems: RssItems)
 }

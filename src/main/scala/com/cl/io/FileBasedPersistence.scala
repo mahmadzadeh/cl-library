@@ -2,20 +2,19 @@ package com.cl.io
 
 import java.io.File
 
-import com.cl.result.RssItem
-
-import scala.util.{Success, Try}
+import com.cl.io.Converter.convertRssItemsFromXML
+import com.cl.result.RssItems
 
 object FileBasedPersistence {
-    def apply(inputFile: java.io.File = new File("file.json")) =
+    val DATA_FILE_NAME = "data.xml"
+
+    def apply(inputFile: java.io.File = new File(DATA_FILE_NAME)) =
         new FileBasedPersistence(inputFile)
 }
 
 class FileBasedPersistence(inputFile: File) extends Persistence {
 
-    def readPreviousRunData() = ???
+    override def read(): RssItems = convertRssItemsFromXML(xml.XML.loadFile(inputFile))
 
-    override def read(): Try[Seq[RssItem]] = Success(Nil)//Converter.convertJSOnToRssItem(xml.XML.loadFile(inputFile))
-
-    override def write(rssItems: Seq[RssItem]): Unit = ???
+    override def write(rssItems: RssItems): Unit = scala.xml.XML.save(inputFile.toString, Converter.convertRssItemsToXML(rssItems))
 }

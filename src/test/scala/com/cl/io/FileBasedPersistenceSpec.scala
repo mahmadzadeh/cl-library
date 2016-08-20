@@ -11,14 +11,21 @@ class FileBasedPersistenceSpec extends FlatSpec with Matchers with FileBasedTest
     behavior of "file based data persistence"
 
     it should "be able to create an instance with given file" in {
-        FileBasedPersistence( getFile( "text.json" ) )
+        FileBasedPersistence(getFile("text.json"))
     }
 
-    it should "read fucntion should return JSON content of the input file" in {
+    it should "read fuction should return JSON content of the input file" in {
+        val res = FileBasedPersistence(getFile("sampleInput.xml")).read()
 
-        print(JSON.parseFull(Source.fromFile(getFile("sampleInput.xml"), "UTF-8").mkString))
+        val expectedNumberOfRssItems = 3
 
-        val res = FileBasedPersistence( getFile("sampleInput.xml") ).read()
+        assertResult(expectedNumberOfRssItems) {
+            res.size
+        }
+
+        assertResult(Set(123456, 123457, 123458)) {
+            res.ids
+        }
     }
 
 }
