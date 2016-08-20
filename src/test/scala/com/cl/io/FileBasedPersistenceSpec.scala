@@ -3,9 +3,6 @@ package com.cl.io
 import com.cl.FileBasedTest
 import org.scalatest.{FlatSpec, Matchers}
 
-import scala.io.Source
-import scala.util.parsing.json.JSON
-
 class FileBasedPersistenceSpec extends FlatSpec with Matchers with FileBasedTest {
 
     behavior of "file based data persistence"
@@ -14,8 +11,10 @@ class FileBasedPersistenceSpec extends FlatSpec with Matchers with FileBasedTest
         FileBasedPersistence(getFile("text.json"))
     }
 
-    it should "read fuction should return JSON content of the input file" in {
-        val res = FileBasedPersistence(getFile("sampleInput.xml")).read()
+    behavior of "file based persistence's read function"
+
+    it should "read function should RSS results based on the content of the input file" in {
+        val res = FileBasedPersistence(getFile("ads.xml")).read()
 
         val expectedNumberOfRssItems = 3
 
@@ -26,6 +25,26 @@ class FileBasedPersistenceSpec extends FlatSpec with Matchers with FileBasedTest
         assertResult(Set(123456, 123457, 123458)) {
             res.ids
         }
+    }
+
+    behavior of "file based persistence's write function"
+
+    it should "write function should write RSSItems to a given file" in {
+
+        val rssItems = FileBasedPersistence(getFile("ads.xml")).read()
+
+        val outputFile = getTempFileForTesting("sampleInput")
+
+        FileBasedPersistence(outputFile).write(rssItems)
+
+        assert(outputFile.exists())
+
+        val readDataFromNewlyCreatedFile = FileBasedPersistence(outputFile).read()
+
+        assertResult(rssItems.ids) {
+            readDataFromNewlyCreatedFile.ids
+        }
+
     }
 
 }

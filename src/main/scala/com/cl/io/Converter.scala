@@ -9,13 +9,16 @@ import scala.xml.{Node, Elem, PCData}
 
 object Converter {
 
+    private val itemsNodeName= "ads"
+    private val itemNodeName = "ad"
+
     def convertRssItemsFromXML(xml: Elem): RssItems =
-        new RssItems((xml \\ "items" \ "item").map { oneItem => convertRssItemFromXML(oneItem) }.toSet)
+        new RssItems((xml \\ itemsNodeName \ itemNodeName).map { oneItem => convertRssItemFromXML(oneItem) }.toSet)
 
     def convertRssItemsToXML(items: RssItems): Elem =
-        <items>
+        <ads>
             {items.items.map(oneItem => convertRssItemToXml(oneItem))}
-        </items>
+        </ads>
 
     def convertRssItemFromXML(elem: Node): RssItem =
         RssItem(
@@ -27,7 +30,7 @@ object Converter {
             (elem \ "image").filter(!_.text.isEmpty).map(linkNode => new URL(linkNode.text.trim)).headOption)
 
     def convertRssItemToXml(item: RssItem): Elem =
-        <item>
+        <ad>
             <adId>
                 {item.adId}
             </adId>
@@ -42,6 +45,6 @@ object Converter {
             </date>
             {item.link.map(url => <link> {PCData(url.toString)}</link>).getOrElse(<link/>)}
             {item.image.map(url => <image>{PCData(url.toString)}</image>).getOrElse(<image/>)}
-        </item>
+        </ad>
 
 }

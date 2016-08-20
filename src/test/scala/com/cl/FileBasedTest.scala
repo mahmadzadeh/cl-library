@@ -17,4 +17,10 @@ trait FileBasedTest {
     }
 
     def getFile(fileName: String): File = new File("src/test/resources/" + fileName)
+
+    def getTempFileForTesting(fileName: String, extension: String = ".xml"): File = {
+        val file = File.createTempFile(fileName, extension)
+        assert(file.exists())
+        file
+    }
 }

@@ -7,7 +7,7 @@ import org.scalatest.{FlatSpec, Matchers}
 class RSSResultPageSpec extends FlatSpec with Matchers with FileBasedTest{
 
     behavior of "an RSS result page"
-    val rssFile = readFile("rss.xml")
+    val rssFile = readFile("CLRss.xml")
 
     it should "throw IllegalArgumentException when given invalid RSS content" in {
         val invalidEmptyContent = ""

@@ -63,13 +63,13 @@ class ConverterSpec extends FlatSpec with Matchers {
         val rssItemsXML = convertRssItemsToXML(rssItems)
 
         assertResult(1) {
-            (rssItemsXML \ "item").size
+            (rssItemsXML \ "ad").size
         }
     }
 
     behavior of "RssItems convertRssItemsFromXML "
 
-    it should "converts XML to an RssItems instance" in {
+    it should "convert XML to an RssItems instance" in {
         val rssItems = new RssItems(Set(rssItem))
 
         val rssItemsXML = convertRssItemsToXML(rssItems)

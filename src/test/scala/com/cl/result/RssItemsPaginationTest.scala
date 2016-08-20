@@ -23,7 +23,7 @@ class RssItemsPaginationTest extends FlatSpec with Matchers with FileBasedTest  
     }
 
     it should "return an empty result when url returns no result"  in {
-        val httpRequestResponse= readFile("rssZeroItem.xml")
+        val httpRequestResponse= readFile("CLRssZeroItem.xml")
         val mockHttpUtil = mock[HttpUtil]
         when(mockHttpUtil.execute(any[GetMethod])).thenReturn(Right(httpRequestResponse))
 
@@ -37,7 +37,7 @@ class RssItemsPaginationTest extends FlatSpec with Matchers with FileBasedTest  
     }
 
     it should "return a result of size 1 when url returns single result"  in {
-        val httpRequestResponse= readFile("rssSingleItem.xml")
+        val httpRequestResponse= readFile("CLRssSingleItem.xml")
         val mockHttpUtil = mock[HttpUtil]
 
         when(mockHttpUtil.execute(any[GetMethod])).thenReturn(Right(httpRequestResponse))
@@ -53,8 +53,8 @@ class RssItemsPaginationTest extends FlatSpec with Matchers with FileBasedTest  
 
     it should "return a result with a single page result"  in {
 
-        val httpRequestResponse= readFile("rss.xml")
-        val secondRequestResponse= readFile("rssZeroItem.xml")
+        val httpRequestResponse= readFile("CLRss.xml")
+        val secondRequestResponse= readFile("CLRssZeroItem.xml")
 
         val mockHttpUtil = mock[HttpUtil]
 
@@ -72,9 +72,9 @@ class RssItemsPaginationTest extends FlatSpec with Matchers with FileBasedTest  
     }
 
     it should "return a result with 2 pages"  in {
-        val firstHttpResponse= readFile("rss.xml")
-        val secondHttpResponse= readFile("rssPageTwo.xml")
-        val thirdHttpResponse = readFile("rssZeroItem.xml")
+        val firstHttpResponse= readFile("CLRss.xml")
+        val secondHttpResponse= readFile("CLRssPageTwo.xml")
+        val thirdHttpResponse = readFile("CLRssZeroItem.xml")
 
         val mockHttpUtil = mock[HttpUtil]
 

@@ -19,7 +19,7 @@ class RssItemParserSpec extends FlatSpec with Matchers with FileBasedTest {
     behavior of "RSS item parser"
 
     it should "return an RssItem when all is well" in {
-        val xml = XML.loadString(readFile("rssSingleItem.xml"))
+        val xml = XML.loadString(readFile("CLRssSingleItem.xml"))
         val itemNode = (xml \\ "item").head
 
         val anItem = new RssSingleItemParser().anRssItem(itemNode)
