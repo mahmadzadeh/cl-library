@@ -31,4 +31,8 @@ class Query(val queryParameters: Map[CLQueryParameter, String],
     def add(searchTerm: CLQueryParameter, value: String): Query =
         new Query(queryParameters + (searchTerm -> value), searchCategory)
 
+    def getQueryParameterValue(param: CLQueryParameter): Option[String] =
+        queryParameters.filter { case (k,v) => param.compare(k) == 0 }
+            .map{ case (k,v) => v.toString }.headOption
+
 }

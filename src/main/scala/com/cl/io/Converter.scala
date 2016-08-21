@@ -26,7 +26,7 @@ object Converter {
             (elem \ "title").text.trim,
             (elem \ "description").text.trim,
             new DateTime((elem \ "date").text.trim),
-            (elem \ "link").filter(!_.text.isEmpty).map { linkNode => new URL(linkNode.text.trim) }.headOption,
+            (elem \ "link").filter(!_.text.isEmpty).map {linkNode => new URL(linkNode.text.trim) }.headOption,
             (elem \ "image").filter(!_.text.isEmpty).map(linkNode => new URL(linkNode.text.trim)).headOption)
 
     def convertRssItemToXml(item: RssItem): Elem =
@@ -35,10 +35,10 @@ object Converter {
                 {item.adId}
             </adId>
             <title>
-                {item.title}
+                {PCData(item.title)}
             </title>
             <description>
-                {item.description}
+                {PCData(item.description)}
             </description>
             <date>
                 {item.date}

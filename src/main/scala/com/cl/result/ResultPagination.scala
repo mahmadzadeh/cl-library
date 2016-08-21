@@ -1,6 +1,6 @@
 package com.cl.result
 
-import com.cl.url.CLUrl
+import com.cl.url.{CLQueryParameter, CLUrl, Query}
 import com.cl.{HttpFetcher, Logs}
 
 import scala.annotation.tailrec
@@ -10,7 +10,7 @@ object ResultPagination {
     /**
      * default max number of pages retrieved per query
      */
-    val MAX_RESULT_PAGE_RETRIEVAL: Integer = 5
+    val MAX_RESULT_PAGE_RETRIEVAL: Integer = 10
 
     /**
      * number of results per RSS page. It "seems" to be 25 for all
@@ -28,16 +28,26 @@ class ResultPagination(httpUtil: HttpFetcher, depth: Integer = ResultPagination.
 
         def hasReachedBaseCase(itemCount: Integer): Boolean = itemCount < MAX_RESULT_PER_PAGE ||
             currDepth > MAX_RESULT_PAGE_RETRIEVAL
+        def queryForNextPage(currentItemCount: Int ):Query = {
+
+            val currOffset: Int = url.query
+                .getQueryParameterValue(CLQueryParameter.PAGINATION)
+                .map(_.toInt)
+                .getOrElse(0)
+
+            url.query.addOffset(currentItemCount + currOffset)
+        }
 
         httpUtil.fetchUrl(url) match {
             case Success(page) =>
                 val rssResult = new RssResultPage(page)
+
                 val itemCount = rssResult.itemCount
 
                 if (hasReachedBaseCase(itemCount)) {
                     return acc.addSinglePageResult(rssResult.items.toSet)
                 } else {
-                    val query = url.query.addOffset(itemCount)
+                    val query = queryForNextPage(itemCount)
                     traverse(new CLUrl(url.city, query),
                         acc.addSinglePageResult(rssResult.items.toSet),
                         currDepth + 1)

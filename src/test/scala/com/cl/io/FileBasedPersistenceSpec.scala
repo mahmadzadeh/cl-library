@@ -13,8 +13,17 @@ class FileBasedPersistenceSpec extends FlatSpec with Matchers with FileBasedTest
 
     behavior of "file based persistence's read function"
 
+    it should "read function returns Try.Failure when input file does not exist" in {
+        val tryRes = FileBasedPersistence(getFile("fileThatIsNotThere.xml")).read()
+
+        assert(tryRes.isFailure)
+    }
+
     it should "read function should RSS results based on the content of the input file" in {
-        val res = FileBasedPersistence(getFile("ads.xml")).read()
+        val tryRes = FileBasedPersistence(getFile("ads.xml")).read()
+        assert(tryRes.isSuccess)
+
+        val res = tryRes.get
 
         val expectedNumberOfRssItems = 3
 
@@ -31,7 +40,10 @@ class FileBasedPersistenceSpec extends FlatSpec with Matchers with FileBasedTest
 
     it should "write function should write RSSItems to a given file" in {
 
-        val rssItems = FileBasedPersistence(getFile("ads.xml")).read()
+        val tryRssItems = FileBasedPersistence(getFile("ads.xml")).read()
+        assert(tryRssItems.isSuccess)
+
+        val rssItems = tryRssItems.get
 
         val outputFile = getTempFileForTesting("sampleInput")
 
@@ -42,7 +54,7 @@ class FileBasedPersistenceSpec extends FlatSpec with Matchers with FileBasedTest
         val readDataFromNewlyCreatedFile = FileBasedPersistence(outputFile).read()
 
         assertResult(rssItems.ids) {
-            readDataFromNewlyCreatedFile.ids
+            rssItems.ids
         }
 
     }

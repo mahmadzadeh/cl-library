@@ -13,9 +13,9 @@ import org.apache.commons.httpclient.HttpClient
 
 object Main extends App {
 
-    val pagination = new ResultPagination( new HttpFetcher( HttpUtil( new HttpClient())))
+    val pagination = new ResultPagination(new HttpFetcher(HttpUtil(new HttpClient())))
 
-    val query = new Query(Map[CLQueryParameter,String](), CARS_TRUCKS_ALL)
+    val query = new Query(Map[CLQueryParameter, String](), CARS_TRUCKS_ALL)
         .withSearchScope("A")
         .withMinPrice(10000)
         .withMaxPrice(70000)
@@ -23,21 +23,23 @@ object Main extends App {
         .withQueryText("m3")
         .inRSSFormat
 
-
     val url = new CLUrl(VANCOUVER, query)
 
-    val result = pagination.traverse(url, new RssItems())
+    while(true) {
 
-    val collectedAdIds = result.ids
+        val newResult = pagination.traverse(url, new RssItems())
 
-     val persistence = FileBasedPersistence()
-//
-//    val prevResult = persistence.readPreviousRunData()
-//
-//    val diff  = result.minus(prevResult)
-//
-//    display.printResult(diff)
-//
-//    persistence.persistResult(result)
+        val collectedAdIds = newResult.ids
+
+        val persistence = FileBasedPersistence()
+
+        val diff = persistence.read().map(newResult.minus(_)).getOrElse(newResult)
+
+        println(diff.ids)
+
+        persistence.write(newResult)
+
+        Thread.sleep(1000 * 60  * 60 )
+    }
 
 }

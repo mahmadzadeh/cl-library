@@ -5,6 +5,8 @@ import java.io.File
 import com.cl.io.Converter.convertRssItemsFromXML
 import com.cl.result.RssItems
 
+import scala.util.Try
+
 object FileBasedPersistence {
     val DATA_FILE_NAME = "data.xml"
 
@@ -14,7 +16,7 @@ object FileBasedPersistence {
 
 class FileBasedPersistence(inputFile: File) extends Persistence {
 
-    override def read(): RssItems = convertRssItemsFromXML(xml.XML.loadFile(inputFile))
+    override def read(): Try[RssItems] = Try { convertRssItemsFromXML(xml.XML.loadFile(inputFile)) }
 
-    override def write(rssItems: RssItems): Unit = scala.xml.XML.save(inputFile.toString, Converter.convertRssItemsToXML(rssItems))
+    override def write(rssItems: RssItems): Unit = scala.xml.XML.save(inputFile.toString, Converter.convertRssItemsToXML(rssItems),  "UTF-8")
 }

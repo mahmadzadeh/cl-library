@@ -103,6 +103,30 @@ class QueryTest extends FunSuite with BeforeAndAfter with Assertions {
         }
     }
 
+    test("given a query with no parameters then getQueryParamValue returns empty string") {
+        val query = new Query(SearchCategory.CARS_TRUCKS_ALL)
+
+        assertResult(None) {
+            query.getQueryParameterValue(CLQueryParameter.IMAGE)
+        }
+    }
+
+    test("given a query with parameters then getQueryParamValue returns parameter value") {
+        val query = new Query(SearchCategory.CARS_TRUCKS_ALL).withImage.withMaxPrice(1000)
+
+        assertResult(Some("true")) {
+            query.getQueryParameterValue(CLQueryParameter.IMAGE)
+        }
+
+        assertResult(Some("1000")) {
+            query.getQueryParameterValue(CLQueryParameter.PRICE_MAX)
+        }
+
+        assertResult(None) {
+            query.getQueryParameterValue(CLQueryParameter.PRICE_MIN)
+        }
+    }
+
     def assertQueryContainsParameter(query: String, term: SearchParameter) {
         assert(query.contains(term.toString))
     }
