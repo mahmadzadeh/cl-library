@@ -5,18 +5,22 @@ import java.net.URL
 import org.joda.time.DateTime
 import org.scalatest.{FlatSpec, Matchers}
 
-class ResultSpec extends FlatSpec with Matchers {
+class RssResultSpec extends FlatSpec with Matchers {
 
     behavior of "a url result known as Result"
 
     val rssItem1 = RssItem(12345, "best thing ever", "cool story bro", new DateTime(),
-                              Some(new URL("http://some.site.com")), None)
+        Some(new URL("http://some.site.com")), None)
+
+    val rssItemLikeItem1 = RssItem(12346, "best thing ever", "cool story bro", new DateTime(),
+        Some(new URL("http://some.site.com")), None)
+
     val rssItem2 = RssItem(4567, "second best thing ever", "lame story bro", new DateTime(),
-                              Some(new URL("http://some.site.com")), None)
+        Some(new URL("http://some.site.com")), None)
     val rssItem3 = RssItem(4567, "second best thing ever now changed", "lame story bro", new DateTime(),
-                              Some(new URL("http://some.site.com")), None)
+        Some(new URL("http://some.site.com")), None)
     val rssItem4 = RssItem(8910, "something ever", "yaya", new DateTime(),
-                              Some(new URL("http://some.site.com")), None)
+        Some(new URL("http://some.site.com")), None)
 
 
     it should "be able to diff two empty results" in {

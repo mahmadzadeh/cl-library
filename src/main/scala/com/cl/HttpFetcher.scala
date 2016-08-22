@@ -7,7 +7,7 @@ import com.cl.url.{CLUrl, Query}
 
 class HttpFetcher(httpUtil: HttpUtil) {
 
-    def fetchUrl(clUrl: CLUrl): Try[String] = fetchUrl(clUrl.url)
+    def fetchUrl(clUrl: CLUrl): Try[String] = fetchUrl(clUrl.url.toString)
 
     def fetchUrl(url: String): Try[String] = {
 

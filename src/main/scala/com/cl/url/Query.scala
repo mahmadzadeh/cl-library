@@ -1,5 +1,7 @@
 package com.cl.url
 
+import java.net.URLEncoder
+
 import com.cl.url.CLQueryParameter._
 import com.cl.url.SearchCategory.SearchCategory
 import com.utils.FormatUtil.fmtDouble
@@ -20,7 +22,7 @@ class Query(val queryParameters: Map[CLQueryParameter, String],
 
     def inRSSFormat: Query = add(CLQueryParameter.FORMAT, "rss")
 
-    def withQueryText(queryString: String): Query = add(CLQueryParameter.QUERY, queryString)
+    def withQueryText(queryString: String): Query = add(CLQueryParameter.QUERY, URLEncoder.encode(queryString, "UTF-8"))
 
     def addOffset(offset: Int) = add(CLQueryParameter.PAGINATION, s"${offset}")
 

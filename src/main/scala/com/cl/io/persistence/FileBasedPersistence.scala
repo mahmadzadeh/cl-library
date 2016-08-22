@@ -1,7 +1,8 @@
-package com.cl.io
+package com.cl.io.persistence
 
 import java.io.File
 
+import com.cl.io.Converter
 import com.cl.io.Converter.convertRssItemsFromXML
 import com.cl.result.RssItems
 

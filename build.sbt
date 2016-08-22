@@ -11,7 +11,8 @@ libraryDependencies ++= Seq(
     "com.codahale"       %   "jerkson_2.9.1"          % "0.5.0",
     "org.jsoup"          %   "jsoup"                  % "1.7.2",
     "joda-time"          %   "joda-time"              % "2.4",
-    "org.joda"           %   "joda-convert"           % "1.2"
+    "org.joda"           %   "joda-convert"           % "1.2",
+    "javax.mail"         %    "mail"                  % "1.4.1"
 )
 
 

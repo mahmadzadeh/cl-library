@@ -1,6 +1,7 @@
 package com.cl.io
 
 import com.cl.FileBasedTest
+import com.cl.io.persistence.FileBasedPersistence
 import org.scalatest.{FlatSpec, Matchers}
 
 class FileBasedPersistenceSpec extends FlatSpec with Matchers with FileBasedTest {
