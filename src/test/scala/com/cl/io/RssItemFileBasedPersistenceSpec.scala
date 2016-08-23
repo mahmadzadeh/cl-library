@@ -1,27 +1,27 @@
 package com.cl.io
 
 import com.cl.FileBasedTest
-import com.cl.io.persistence.FileBasedPersistence
+import com.cl.io.persistence.RssItemFileBasedPersistence
 import org.scalatest.{FlatSpec, Matchers}
 
-class FileBasedPersistenceSpec extends FlatSpec with Matchers with FileBasedTest {
+class RssItemFileBasedPersistenceSpec extends FlatSpec with Matchers with FileBasedTest {
 
     behavior of "file based data persistence"
 
     it should "be able to create an instance with given file" in {
-        FileBasedPersistence(getFile("text.json"))
+        RssItemFileBasedPersistence(getFile("text.json"))
     }
 
     behavior of "file based persistence's read function"
 
     it should "read function returns Try.Failure when input file does not exist" in {
-        val tryRes = FileBasedPersistence(getFile("fileThatIsNotThere.xml")).read()
+        val tryRes = RssItemFileBasedPersistence(getFile("fileThatIsNotThere.xml")).read()
 
         assert(tryRes.isFailure)
     }
 
     it should "read function should RSS results based on the content of the input file" in {
-        val tryRes = FileBasedPersistence(getFile("ads.xml")).read()
+        val tryRes = RssItemFileBasedPersistence(getFile("ads.xml")).read()
         assert(tryRes.isSuccess)
 
         val res = tryRes.get
@@ -41,18 +41,18 @@ class FileBasedPersistenceSpec extends FlatSpec with Matchers with FileBasedTest
 
     it should "write function should write RSSItems to a given file" in {
 
-        val tryRssItems = FileBasedPersistence(getFile("ads.xml")).read()
+        val tryRssItems = RssItemFileBasedPersistence(getFile("ads.xml")).read()
         assert(tryRssItems.isSuccess)
 
         val rssItems = tryRssItems.get
 
         val outputFile = getTempFileForTesting("sampleInput")
 
-        FileBasedPersistence(outputFile).write(rssItems)
+        RssItemFileBasedPersistence(outputFile).write(rssItems)
 
         assert(outputFile.exists())
 
-        val readDataFromNewlyCreatedFile = FileBasedPersistence(outputFile).read()
+        val readDataFromNewlyCreatedFile = RssItemFileBasedPersistence(outputFile).read()
 
         assertResult(rssItems.ids) {
             rssItems.ids

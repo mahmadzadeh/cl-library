@@ -4,7 +4,7 @@ import com.cl.HttpFetcher
 import com.cl.io.mail.GMailMailConfiguration
 import com.cl.io.mail.GMailMailer.send
 import com.cl.io.mail.Util.{formatRSSItemsIntoHTML, mailSession, mimeMessageForSession, transportFromSession}
-import com.cl.io.persistence.FileBasedPersistence
+import com.cl.io.persistence.{RssItemFileBasedPersistence, RssItemFileBasedPersistence$}
 import com.cl.result.{ResultPagination, RssItems}
 import com.cl.url.CLQueryParameter._
 import com.cl.url.City._
@@ -20,16 +20,16 @@ import scala.util.Try
 object Driver extends App {
 
     private val pagination = new ResultPagination(new HttpFetcher(HttpUtil(new HttpClient())))
-    private val persistence = FileBasedPersistence()
-    
-    private val userName= "mahmadzadeh"
+    private val persistence = RssItemFileBasedPersistence()
+
+    private val userName = "mahmadzadeh"
     private val password = "boguspwd"
-    private val queryString= "BMW 335i"
+    private val queryString = "BMW 335i coupe"
     private val emailFrom = s"${userName}@gmail.com"
-    private val emailSubject = "All from a test code"
-    
+    private val emailSubject = "Latest Ads on CL"
+
     val configuration = new GMailMailConfiguration(userName, password, emailFrom, emailFrom, emailFrom, emailSubject)
-    
+
     val query = new Query(Map[ CLQueryParameter, String ](), CARS_TRUCKS_ALL)
         .withSearchScope("A")
         .withMinPrice(10000)
@@ -52,9 +52,10 @@ object Driver extends App {
 
         if (shouldEmail(diff)) {
             val itemsInHTMLFormat = formatRSSItemsIntoHTML(diff)
+
             sendEmail(configuration, itemsInHTMLFormat)
-        } 
-        
+        }
+
         Thread.sleep(1000 * 60 * 60)
     }
 

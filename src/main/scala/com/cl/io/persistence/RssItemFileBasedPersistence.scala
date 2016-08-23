@@ -8,14 +8,14 @@ import com.cl.result.RssItems
 
 import scala.util.Try
 
-object FileBasedPersistence {
+object RssItemFileBasedPersistence {
     val DATA_FILE_NAME = "data.xml"
 
     def apply(inputFile: java.io.File = new File(DATA_FILE_NAME)) =
-        new FileBasedPersistence(inputFile)
+        new RssItemFileBasedPersistence(inputFile)
 }
 
-class FileBasedPersistence(inputFile: File) extends Persistence {
+class RssItemFileBasedPersistence(inputFile: File) extends Persistence {
 
     override def read(): Try[RssItems] = Try { convertRssItemsFromXML(xml.XML.loadFile(inputFile)) }
 
