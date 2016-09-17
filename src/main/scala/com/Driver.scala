@@ -50,7 +50,7 @@ object Driver extends App {
 
         persistence.write(newResult)
 
-        if (shouldEmail(diff)) {
+        if (isThereNewAdsToEmail(diff)) {
             val itemsInHTMLFormat = formatRSSItemsIntoHTML(diff)
 
             sendEmail(configuration, itemsInHTMLFormat)
@@ -59,7 +59,7 @@ object Driver extends App {
         Thread.sleep(1000 * 60 * 60)
     }
 
-    private def shouldEmail(diff: RssItems): Boolean = diff.size > 0
+    private def isThereNewAdsToEmail(diff: RssItems): Boolean = diff.size > 0
 
     private def sendEmail(mailConfig: GMailMailConfiguration, msg: String): Try[ Unit ] = {
 
