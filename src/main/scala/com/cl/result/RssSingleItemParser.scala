@@ -22,8 +22,7 @@ class RssSingleItemParser {
         for (
             l <- link;
             id <- getRssItemId( l.toString )
-        )
-            yield RssItem( id, title = title, desc, date, link.toOption, image.toOption )
+        ) yield RssItem( id, title = title, desc, date, link.toOption, image.toOption )
     }
 
     def getRssItemId(adUrl: String): Try[ Long ] = {

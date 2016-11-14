@@ -9,7 +9,4 @@ class Monitor() {
 
     def execute(resultPagination: ResultPagination, url: CLUrl): RssItems = resultPagination.traverse(url, new RssItems())
 
-
-
-
 }
