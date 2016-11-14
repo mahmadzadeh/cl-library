@@ -9,16 +9,16 @@ import scala.util.Try
 
 object GMailMailer extends MailAPI {
 
-    def send(transport: SMTPTransport, msg: MimeMessage, mailConfig: MailConfiguration ) : Try[Unit]  = Try {
+    def send(transport: SMTPTransport, msg: MimeMessage, mailConfig: MailConfiguration): Try[ Unit ] = Try {
 
         try {
-            transport.connect(mailConfig.host, mailConfig.userName, mailConfig.password)
-            transport.sendMessage(msg, msg.getAllRecipients)
+            transport.connect( mailConfig.host, mailConfig.userName, mailConfig.password )
+            transport.sendMessage( msg, msg.getAllRecipients )
         } catch {
-            case m: MessagingException  => throw new RuntimeException(s"Messaging Exception", m)
-            case m: SendFailedException => throw new RuntimeException(s"Send Failed", m)
+            case m: MessagingException  => throw new RuntimeException( s"Messaging Exception", m )
+            case m: SendFailedException => throw new RuntimeException( s"Send Failed", m )
         } finally {
-            transport.close()
+            transport.close( )
         }
 
     }

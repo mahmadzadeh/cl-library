@@ -1,11 +1,12 @@
 package com.cl.result
 
-import org.joda.time.DateTime
 import java.net.URL
+
+import org.joda.time.DateTime
 
 case class RssItem(adId: Long,
                    title: String,
                    description: String,
                    date: DateTime,
-                   link: Option[URL],
-                   image: Option[URL])
+                   link: Option[ URL ],
+                   image: Option[ URL ])

@@ -15,14 +15,14 @@ class MailConfiguration(
 
     def toConnectionProperties: Properties = {
 
-        val props = new Properties()
+        val props = new Properties( )
 
-        props.put("mail.smtp.host", host)
-        props.put("mail.smtp.auth", auth.toString.toLowerCase())
-        props.put("mail.smtp.starttls.enable", "true")
-        props.put("mail.smtp.port", port.toString)
-        props.put("mail.smtp.socketFactory.class", "javax.net.ssl.SSLSocketFactory")
-        props.put("mail.smtp.socketFactory.fallback", "false")
+        props.put( "mail.smtp.host", host )
+        props.put( "mail.smtp.auth", auth.toString.toLowerCase( ) )
+        props.put( "mail.smtp.starttls.enable", "true" )
+        props.put( "mail.smtp.port", port.toString )
+        props.put( "mail.smtp.socketFactory.class", "javax.net.ssl.SSLSocketFactory" )
+        props.put( "mail.smtp.socketFactory.fallback", "false" )
 
         props
     }
@@ -43,4 +43,4 @@ MailConfiguration(
     gMailFrom,
     gMailTo,
     gMailCC,
-    gMailSubject)
+    gMailSubject )
